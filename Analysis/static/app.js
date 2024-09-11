@@ -5,6 +5,8 @@ const rentalUrl = 'https://raw.githubusercontent.com/elgnol/RealEstate_Project_3
 let housingData = [];
 let rentalData = [];
 let cities = [];
+let housingPercentChangeElement;
+let rentalPercentChangeElement;
 
 // Load both datasets and initialize the page
 async function loadData() {
@@ -26,6 +28,10 @@ async function loadData() {
         citySelect.appendChild(option);
     });
 
+    // Create elements to display percent change
+    housingPercentChangeElement = document.getElementById('housingPercentChange');
+    rentalPercentChangeElement = document.getElementById('rentalPercentChange');
+    
     // Default city (first city in the list)
     updateGraphs(0);
 
@@ -46,6 +52,14 @@ function updateGraphs(cityIndex) {
     const rentalLabels = Object.keys(selectedRentalRow).filter(key => key.match(/^\d{4}-\d{2}-\d{2}$/));
     const rentalPrices = rentalLabels.map(date => parseFloat(selectedRentalRow[date]));
 
+    // Access the percent change from the last column of each dataset
+    const housingPercentChange = selectedHousingRow[Object.keys(selectedHousingRow).pop()]; // Last column
+    const rentalPercentChange = selectedRentalRow[Object.keys(selectedRentalRow).pop()]; // Last column
+
+    // Update the percent change display
+    housingPercentChangeElement.innerText = `Housing Price Change: ${housingPercentChange}%`;
+    rentalPercentChangeElement.innerText = `Rental Price Change: ${rentalPercentChange}%`;
+    
     // Update the housing chart
     createLineChart('housingChart', housingLabels, housingPrices, 'Housing Prices');
 
