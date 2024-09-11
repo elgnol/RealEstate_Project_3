@@ -1,0 +1,658 @@
+[
+    {
+        "RegionName":"United States",
+        "2024-07-31":2294.3651888511
+    },
+    {
+        "RegionName":"Abilene, TX",
+        "2024-07-31":1534.3026113671
+    },
+    {
+        "RegionName":"Akron, OH",
+        "2024-07-31":1358.3969067969
+    },
+    {
+        "RegionName":"Albany, NY",
+        "2024-07-31":2326.4926847662
+    },
+    {
+        "RegionName":"Albuquerque, NM",
+        "2024-07-31":2060.0904643512
+    },
+    {
+        "RegionName":"Allentown, PA",
+        "2024-07-31":2130.2681635926
+    },
+    {
+        "RegionName":"Ann Arbor, MI",
+        "2024-07-31":2648.6965811966
+    },
+    {
+        "RegionName":"Asheville, NC",
+        "2024-07-31":2270.4968989328
+    },
+    {
+        "RegionName":"Athens, GA",
+        "2024-07-31":1949.5392081737
+    },
+    {
+        "RegionName":"Atlanta, GA",
+        "2024-07-31":2236.0130048954
+    },
+    {
+        "RegionName":"Atlantic City, NJ",
+        "2024-07-31":2790.2407407407
+    },
+    {
+        "RegionName":"Augusta, GA",
+        "2024-07-31":1602.3157048579
+    },
+    {
+        "RegionName":"Austin, TX",
+        "2024-07-31":2378.0268301554
+    },
+    {
+        "RegionName":"Bakersfield, CA",
+        "2024-07-31":2223.751228844
+    },
+    {
+        "RegionName":"Baltimore, MD",
+        "2024-07-31":2273.2418539177
+    },
+    {
+        "RegionName":"Baton Rouge, LA",
+        "2024-07-31":1732.9396942899
+    },
+    {
+        "RegionName":"Beaumont, TX",
+        "2024-07-31":1425.4506349206
+    },
+    {
+        "RegionName":"Birmingham, AL",
+        "2024-07-31":1513.2364348241
+    },
+    {
+        "RegionName":"Boise City, ID",
+        "2024-07-31":2199.843047352
+    },
+    {
+        "RegionName":"Boston, MA",
+        "2024-07-31":3786.3249155637
+    },
+    {
+        "RegionName":"Boulder, CO",
+        "2024-07-31":3038.9786772983
+    },
+    {
+        "RegionName":"Bremerton, WA",
+        "2024-07-31":2690.5102918587
+    },
+    {
+        "RegionName":"Bridgeport, CT",
+        "2024-07-31":4763.538320442
+    },
+    {
+        "RegionName":"Buffalo, NY",
+        "2024-07-31":1753.9022717049
+    },
+    {
+        "RegionName":"Cape Coral, FL",
+        "2024-07-31":2394.4463879185
+    },
+    {
+        "RegionName":"Champaign, IL",
+        "2024-07-31":1519.4976886557
+    },
+    {
+        "RegionName":"Charleston, SC",
+        "2024-07-31":2484.0404915295
+    },
+    {
+        "RegionName":"Charlotte, NC",
+        "2024-07-31":2147.31173597
+    },
+    {
+        "RegionName":"Charlottesville, VA",
+        "2024-07-31":2351.8376710043
+    },
+    {
+        "RegionName":"Chattanooga, TN",
+        "2024-07-31":2003.7130914229
+    },
+    {
+        "RegionName":"Cheyenne, WY",
+        "2024-07-31":1882.1466503268
+    },
+    {
+        "RegionName":"Chicago, IL",
+        "2024-07-31":2459.75649184
+    },
+    {
+        "RegionName":"Cincinnati, OH",
+        "2024-07-31":2004.4785935774
+    },
+    {
+        "RegionName":"Clarksville, TN",
+        "2024-07-31":1685.2905663146
+    },
+    {
+        "RegionName":"Cleveland, OH",
+        "2024-07-31":1594.087418119
+    },
+    {
+        "RegionName":"College Station, TX",
+        "2024-07-31":1904.5597852209
+    },
+    {
+        "RegionName":"Colorado Springs, CO",
+        "2024-07-31":2329.7832959845
+    },
+    {
+        "RegionName":"Columbia, MO",
+        "2024-07-31":1568.5227272727
+    },
+    {
+        "RegionName":"Columbia, SC",
+        "2024-07-31":1770.8613299139
+    },
+    {
+        "RegionName":"Columbus, GA",
+        "2024-07-31":1372.0474458504
+    },
+    {
+        "RegionName":"Columbus, OH",
+        "2024-07-31":1934.512406778
+    },
+    {
+        "RegionName":"Corpus Christi, TX",
+        "2024-07-31":1846.8231816375
+    },
+    {
+        "RegionName":"Crestview, FL",
+        "2024-07-31":2264.071383818
+    },
+    {
+        "RegionName":"Dallas, TX",
+        "2024-07-31":2407.5817326649
+    },
+    {
+        "RegionName":"Davenport, IA",
+        "2024-07-31":1445.2272727273
+    },
+    {
+        "RegionName":"Deltona, FL",
+        "2024-07-31":2133.6903517089
+    },
+    {
+        "RegionName":"Denver, CO",
+        "2024-07-31":2991.3684329458
+    },
+    {
+        "RegionName":"Des Moines, IA",
+        "2024-07-31":1639.8618811509
+    },
+    {
+        "RegionName":"Detroit, MI",
+        "2024-07-31":1594.2588811837
+    },
+    {
+        "RegionName":"El Paso, TX",
+        "2024-07-31":1715.3806915463
+    },
+    {
+        "RegionName":"Eugene, OR",
+        "2024-07-31":2105.1703612479
+    },
+    {
+        "RegionName":"Fayetteville, AR",
+        "2024-07-31":1784.0955333387
+    },
+    {
+        "RegionName":"Fayetteville, NC",
+        "2024-07-31":1661.310803993
+    },
+    {
+        "RegionName":"Fort Wayne, IN",
+        "2024-07-31":1330.010670194
+    },
+    {
+        "RegionName":"Fresno, CA",
+        "2024-07-31":2369.3455755977
+    },
+    {
+        "RegionName":"Gainesville, FL",
+        "2024-07-31":1975.3567879149
+    },
+    {
+        "RegionName":"Gainesville, GA",
+        "2024-07-31":2193.441602728
+    },
+    {
+        "RegionName":"Grand Junction, CO",
+        "2024-07-31":1922.9438301636
+    },
+    {
+        "RegionName":"Grand Rapids, MI",
+        "2024-07-31":2009.6864699628
+    },
+    {
+        "RegionName":"Greensboro, NC",
+        "2024-07-31":1842.0279499265
+    },
+    {
+        "RegionName":"Greenville, NC",
+        "2024-07-31":1666.1764705882
+    },
+    {
+        "RegionName":"Greenville, SC",
+        "2024-07-31":1828.3252891821
+    },
+    {
+        "RegionName":"Gulfport, MS",
+        "2024-07-31":1562.2344720497
+    },
+    {
+        "RegionName":"Hagerstown, MD",
+        "2024-07-31":1814.5211640212
+    },
+    {
+        "RegionName":"Harrisburg, PA",
+        "2024-07-31":1807.2405413015
+    },
+    {
+        "RegionName":"Hartford, CT",
+        "2024-07-31":2525.3811802233
+    },
+    {
+        "RegionName":"Hilton Head Island, SC",
+        "2024-07-31":2557.3884803922
+    },
+    {
+        "RegionName":"Houston, TX",
+        "2024-07-31":2198.5748713986
+    },
+    {
+        "RegionName":"Huntsville, AL",
+        "2024-07-31":1776.6938028925
+    },
+    {
+        "RegionName":"Indianapolis, IN",
+        "2024-07-31":1809.945895206
+    },
+    {
+        "RegionName":"Jacksonville, FL",
+        "2024-07-31":2100.3243373473
+    },
+    {
+        "RegionName":"Kalamazoo, MI",
+        "2024-07-31":1784.3692810458
+    },
+    {
+        "RegionName":"Kansas City, MO",
+        "2024-07-31":1733.3606507288
+    },
+    {
+        "RegionName":"Killeen, TX",
+        "2024-07-31":1622.3460278533
+    },
+    {
+        "RegionName":"Knoxville, TN",
+        "2024-07-31":2171.7576158409
+    },
+    {
+        "RegionName":"Lafayette, IN",
+        "2024-07-31":1757.9523809524
+    },
+    {
+        "RegionName":"Lakeland, FL",
+        "2024-07-31":2085.6552594172
+    },
+    {
+        "RegionName":"Lancaster, PA",
+        "2024-07-31":1760.5930205416
+    },
+    {
+        "RegionName":"Lansing, MI",
+        "2024-07-31":1430.0811051693
+    },
+    {
+        "RegionName":"Las Cruces, NM",
+        "2024-07-31":1710.6993464052
+    },
+    {
+        "RegionName":"Las Vegas, NV",
+        "2024-07-31":2273.6557518484
+    },
+    {
+        "RegionName":"Lawton, OK",
+        "2024-07-31":1174.083994709
+    },
+    {
+        "RegionName":"Lexington, KY",
+        "2024-07-31":1766.0388363149
+    },
+    {
+        "RegionName":"Little Rock, AR",
+        "2024-07-31":1402.6396417853
+    },
+    {
+        "RegionName":"Los Angeles, CA",
+        "2024-07-31":4438.0791218757
+    },
+    {
+        "RegionName":"Louisville, KY",
+        "2024-07-31":1667.6390711236
+    },
+    {
+        "RegionName":"Lubbock, TX",
+        "2024-07-31":1475.4415356252
+    },
+    {
+        "RegionName":"Lynchburg, VA",
+        "2024-07-31":1611.1446078431
+    },
+    {
+        "RegionName":"Madison, WI",
+        "2024-07-31":2452.5028058361
+    },
+    {
+        "RegionName":"Manhattan, KS",
+        "2024-07-31":1494.402173913
+    },
+    {
+        "RegionName":"Medford, OR",
+        "2024-07-31":2184.2138157895
+    },
+    {
+        "RegionName":"Memphis, TN",
+        "2024-07-31":1659.0625525975
+    },
+    {
+        "RegionName":"Merced, CA",
+        "2024-07-31":2225.2865866174
+    },
+    {
+        "RegionName":"Miami, FL",
+        "2024-07-31":3568.2443691277
+    },
+    {
+        "RegionName":"Milwaukee, WI",
+        "2024-07-31":1666.0578297596
+    },
+    {
+        "RegionName":"Minneapolis, MN",
+        "2024-07-31":2267.3901262759
+    },
+    {
+        "RegionName":"Mobile, AL",
+        "2024-07-31":1482.4430658947
+    },
+    {
+        "RegionName":"Modesto, CA",
+        "2024-07-31":2397.5386904762
+    },
+    {
+        "RegionName":"Montgomery, AL",
+        "2024-07-31":1389.7662797125
+    },
+    {
+        "RegionName":"Myrtle Beach, SC",
+        "2024-07-31":2123.1975142957
+    },
+    {
+        "RegionName":"Naples, FL",
+        "2024-07-31":4073.4185847062
+    },
+    {
+        "RegionName":"Nashville, TN",
+        "2024-07-31":2344.8590741938
+    },
+    {
+        "RegionName":"New Haven, CT",
+        "2024-07-31":2828.2659451524
+    },
+    {
+        "RegionName":"New Orleans, LA",
+        "2024-07-31":1896.5200746965
+    },
+    {
+        "RegionName":"New York, NY",
+        "2024-07-31":3640.0931447416
+    },
+    {
+        "RegionName":"North Port, FL",
+        "2024-07-31":2731.4666313394
+    },
+    {
+        "RegionName":"Norwich, CT",
+        "2024-07-31":2404.9494949495
+    },
+    {
+        "RegionName":"Oak Harbor, WA",
+        "2024-07-31":2544.7222222222
+    },
+    {
+        "RegionName":"Ocala, FL",
+        "2024-07-31":1766.4843882844
+    },
+    {
+        "RegionName":"Ogden, UT",
+        "2024-07-31":2279.3511275546
+    },
+    {
+        "RegionName":"Oklahoma City, OK",
+        "2024-07-31":1500.9723806006
+    },
+    {
+        "RegionName":"Olympia, WA",
+        "2024-07-31":2597.2632930803
+    },
+    {
+        "RegionName":"Omaha, NE",
+        "2024-07-31":1898.6804016064
+    },
+    {
+        "RegionName":"Orlando, FL",
+        "2024-07-31":2468.8475553958
+    },
+    {
+        "RegionName":"Oxnard, CA",
+        "2024-07-31":3972.3377352763
+    },
+    {
+        "RegionName":"Palm Bay, FL",
+        "2024-07-31":2243.1826864331
+    },
+    {
+        "RegionName":"Pensacola, FL",
+        "2024-07-31":2002.5105457482
+    },
+    {
+        "RegionName":"Philadelphia, PA",
+        "2024-07-31":2220.5928784346
+    },
+    {
+        "RegionName":"Phoenix, AZ",
+        "2024-07-31":2336.897512106
+    },
+    {
+        "RegionName":"Pittsburgh, PA",
+        "2024-07-31":1607.5190014067
+    },
+    {
+        "RegionName":"Port St. Lucie, FL",
+        "2024-07-31":2676.3514658748
+    },
+    {
+        "RegionName":"Portland, OR",
+        "2024-07-31":2693.3904926677
+    },
+    {
+        "RegionName":"Providence, RI",
+        "2024-07-31":2891.0634920635
+    },
+    {
+        "RegionName":"Provo, UT",
+        "2024-07-31":2270.6353367434
+    },
+    {
+        "RegionName":"Punta Gorda, FL",
+        "2024-07-31":2301.3743821286
+    },
+    {
+        "RegionName":"Raleigh, NC",
+        "2024-07-31":2130.0654860952
+    },
+    {
+        "RegionName":"Reno, NV",
+        "2024-07-31":2521.3238364564
+    },
+    {
+        "RegionName":"Richmond, VA",
+        "2024-07-31":2201.8687531529
+    },
+    {
+        "RegionName":"Riverside, CA",
+        "2024-07-31":3072.0837333545
+    },
+    {
+        "RegionName":"Rockford, IL",
+        "2024-07-31":1589.7179487179
+    },
+    {
+        "RegionName":"Sacramento, CA",
+        "2024-07-31":2762.0967390592
+    },
+    {
+        "RegionName":"Salem, OR",
+        "2024-07-31":2298.3974358974
+    },
+    {
+        "RegionName":"Salinas, CA",
+        "2024-07-31":4039.0010683761
+    },
+    {
+        "RegionName":"Salt Lake City, UT",
+        "2024-07-31":2541.5589296924
+    },
+    {
+        "RegionName":"San Antonio, TX",
+        "2024-07-31":1901.7426780891
+    },
+    {
+        "RegionName":"San Diego, CA",
+        "2024-07-31":4155.9406864465
+    },
+    {
+        "RegionName":"San Francisco, CA",
+        "2024-07-31":4024.9535343443
+    },
+    {
+        "RegionName":"San Luis Obispo, CA",
+        "2024-07-31":3389.8653846154
+    },
+    {
+        "RegionName":"Santa Rosa, CA",
+        "2024-07-31":3455.7063973064
+    },
+    {
+        "RegionName":"Savannah, GA",
+        "2024-07-31":2274.7326249736
+    },
+    {
+        "RegionName":"Seattle, WA",
+        "2024-07-31":3384.7739964898
+    },
+    {
+        "RegionName":"Sebastian, FL",
+        "2024-07-31":2381.3092463092
+    },
+    {
+        "RegionName":"Shreveport, LA",
+        "2024-07-31":1318.1388072254
+    },
+    {
+        "RegionName":"South Bend, IN",
+        "2024-07-31":1352.1888888889
+    },
+    {
+        "RegionName":"Spokane, WA",
+        "2024-07-31":2185.9256462585
+    },
+    {
+        "RegionName":"Springfield, MO",
+        "2024-07-31":1396.0640657822
+    },
+    {
+        "RegionName":"St. Louis, MO",
+        "2024-07-31":1605.3997251748
+    },
+    {
+        "RegionName":"Stockton, CA",
+        "2024-07-31":2832.0478331528
+    },
+    {
+        "RegionName":"Tallahassee, FL",
+        "2024-07-31":1654.09135408
+    },
+    {
+        "RegionName":"Tampa, FL",
+        "2024-07-31":2443.9517651268
+    },
+    {
+        "RegionName":"Toledo, OH",
+        "2024-07-31":1228.2604166667
+    },
+    {
+        "RegionName":"Topeka, KS",
+        "2024-07-31":1119.3882352941
+    },
+    {
+        "RegionName":"Trenton, NJ",
+        "2024-07-31":2971.3045674133
+    },
+    {
+        "RegionName":"Tucson, AZ",
+        "2024-07-31":1941.1937800927
+    },
+    {
+        "RegionName":"Tulsa, OK",
+        "2024-07-31":1580.5351465878
+    },
+    {
+        "RegionName":"Urban Honolulu, HI",
+        "2024-07-31":3409.8482017636
+    },
+    {
+        "RegionName":"Vallejo, CA",
+        "2024-07-31":3039.9176307783
+    },
+    {
+        "RegionName":"Virginia Beach, VA",
+        "2024-07-31":2188.943828391
+    },
+    {
+        "RegionName":"Washington, DC",
+        "2024-07-31":3242.6747439098
+    },
+    {
+        "RegionName":"Wichita, KS",
+        "2024-07-31":1236.6819358323
+    },
+    {
+        "RegionName":"Wilmington, NC",
+        "2024-07-31":2232.2708242793
+    },
+    {
+        "RegionName":"Winchester, VA",
+        "2024-07-31":2014.4303030303
+    },
+    {
+        "RegionName":"Winston, NC",
+        "2024-07-31":1864.2439342188
+    },
+    {
+        "RegionName":"York, PA",
+        "2024-07-31":1503.9091192032
+    }
+]
