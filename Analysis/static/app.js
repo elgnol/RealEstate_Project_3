@@ -12,7 +12,7 @@ function createHeatMap(data) {
 
     // Parse the data to create heat map points
     data.forEach(function(item) {
-        heatData.push([item.latitude, item.longitude, item.price]); // Adjust the keys based on your JSON structure
+        heatData.push([item.price, item.lat, item.lng]); // Adjust the keys based on your JSON structure
     });
 
     // Create the heat map layer
