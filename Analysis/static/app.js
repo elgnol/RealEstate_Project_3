@@ -9,6 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Variables to hold markers
 var rentalMarkers = [];
 var homeMarkers = [];
+var percentMarkers = [];
 
 // Function to create markers
 function createMarkers(data, markersArray, color, scalingFactor) {
@@ -47,6 +48,21 @@ fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Ana
         createMarkers(data, homeMarkers, 'green', 36000); // Create home value markers with a different scaling factor
     });
 
+
+// Load home percents data
+fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/home_percents.json')
+    .then(response => response.json())
+    .then(data => {
+        createMarkers(data, percentMarkers, 'pink', 2); // Create home percent markers with a different scaling factor
+    });
+
+// Load rental percents data
+fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/rental_percents.json')
+.then(response => response.json())
+.then(data => {
+    createMarkers(data, percentMarkers, 'orange', 2); // Create rental percent markers with a different scaling factor
+});
+
 // Function to toggle maps
 function toggleMap() {
     var selectedValue = document.getElementById('mapSelector').value;
@@ -54,11 +70,16 @@ function toggleMap() {
     // Clear all markers from the map
     rentalMarkers.forEach(marker => map.removeLayer(marker));
     homeMarkers.forEach(marker => map.removeLayer(marker));
+    percentMarkers.forEach(marker => map.removeLayer(marker));
 
     // Add markers based on selection
     if (selectedValue === 'rental') {
         rentalMarkers.forEach(marker => marker.addTo(map));
     } else if (selectedValue === 'home') {
+        homeMarkers.forEach(marker => marker.addTo(map));
+    } else if (selectedValue === 'home percent') {
+        homeMarkers.forEach(marker => marker.addTo(map));
+    } else if (selectedValue === 'rental percent') {
         homeMarkers.forEach(marker => marker.addTo(map));
     }
 }

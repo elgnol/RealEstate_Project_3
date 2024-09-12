@@ -3,960 +3,960 @@
         "RegionName":"Abilene, TX",
         "lat":32.4543,
         "lng":-99.7384,
-        "housingPercentChange":66.8662919905
+        "price":66.8662919905
     },
     {
         "RegionName":"Akron, OH",
         "lat":41.0798,
         "lng":-81.5219,
-        "housingPercentChange":86.3603153544
+        "price":86.3603153544
     },
     {
         "RegionName":"Albany, NY",
         "lat":42.6664,
         "lng":-73.7987,
-        "housingPercentChange":67.1481807088
+        "price":67.1481807088
     },
     {
         "RegionName":"Albuquerque, NM",
         "lat":35.1054,
         "lng":-106.6465,
-        "housingPercentChange":96.9159401632
+        "price":96.9159401632
     },
     {
         "RegionName":"Allentown, PA",
         "lat":40.5961,
         "lng":-75.4756,
-        "housingPercentChange":80.8167761257
+        "price":80.8167761257
     },
     {
         "RegionName":"Ann Arbor, MI",
         "lat":42.2759,
         "lng":-83.731,
-        "housingPercentChange":69.4605678201
+        "price":69.4605678201
     },
     {
         "RegionName":"Asheville, NC",
         "lat":35.5707,
         "lng":-82.5537,
-        "housingPercentChange":114.8244688336
+        "price":114.8244688336
     },
     {
         "RegionName":"Athens, GA",
         "lat":33.9508,
         "lng":-83.3689,
-        "housingPercentChange":126.0077464045
+        "price":126.0077464045
     },
     {
         "RegionName":"Atlanta, GA",
         "lat":33.7628,
         "lng":-84.422,
-        "housingPercentChange":127.4742934909
+        "price":127.4742934909
     },
     {
         "RegionName":"Atlantic City, NJ",
         "lat":39.3797,
         "lng":-74.4527,
-        "housingPercentChange":81.1217271116
+        "price":81.1217271116
     },
     {
         "RegionName":"Augusta, GA",
         "lat":33.3645,
         "lng":-82.0708,
-        "housingPercentChange":88.9188939838
+        "price":88.9188939838
     },
     {
         "RegionName":"Austin, TX",
         "lat":30.3005,
         "lng":-97.7522,
-        "housingPercentChange":85.6313562172
+        "price":85.6313562172
     },
     {
         "RegionName":"Bakersfield, CA",
         "lat":35.3529,
         "lng":-119.0359,
-        "housingPercentChange":99.2251530038
+        "price":99.2251530038
     },
     {
         "RegionName":"Baltimore, MD",
         "lat":39.3051,
         "lng":-76.6144,
-        "housingPercentChange":49.136550163
+        "price":49.136550163
     },
     {
         "RegionName":"Baton Rouge, LA",
         "lat":30.442,
         "lng":-91.1311,
-        "housingPercentChange":38.1942460629
+        "price":38.1942460629
     },
     {
         "RegionName":"Beaumont, TX",
         "lat":30.0849,
         "lng":-94.1451,
-        "housingPercentChange":41.9510023507
+        "price":41.9510023507
     },
     {
         "RegionName":"Birmingham, AL",
         "lat":33.5279,
         "lng":-86.7971,
-        "housingPercentChange":72.9800607854
+        "price":72.9800607854
     },
     {
         "RegionName":"Boston, MA",
         "lat":42.3188,
         "lng":-71.0852,
-        "housingPercentChange":88.6183005599
+        "price":88.6183005599
     },
     {
         "RegionName":"Boulder, CO",
         "lat":40.0248,
         "lng":-105.2524,
-        "housingPercentChange":91.6620272195
+        "price":91.6620272195
     },
     {
         "RegionName":"Bremerton, WA",
         "lat":47.5436,
         "lng":-122.7121,
-        "housingPercentChange":113.3177088781
+        "price":113.3177088781
     },
     {
         "RegionName":"Bridgeport, CT",
         "lat":41.1918,
         "lng":-73.1954,
-        "housingPercentChange":58.7104475624
+        "price":58.7104475624
     },
     {
         "RegionName":"Buffalo, NY",
         "lat":42.9018,
         "lng":-78.8487,
-        "housingPercentChange":99.692500616
+        "price":99.692500616
     },
     {
         "RegionName":"Cape Coral, FL",
         "lat":26.6443,
         "lng":-81.9957,
-        "housingPercentChange":116.0326213177
+        "price":116.0326213177
     },
     {
         "RegionName":"Champaign, IL",
         "lat":40.1142,
         "lng":-88.2737,
-        "housingPercentChange":47.0307403236
+        "price":47.0307403236
     },
     {
         "RegionName":"Charleston, SC",
         "lat":32.8168,
         "lng":-79.9687,
-        "housingPercentChange":105.7690960849
+        "price":105.7690960849
     },
     {
         "RegionName":"Charlotte, NC",
         "lat":35.2083,
         "lng":-80.8303,
-        "housingPercentChange":129.0502759039
+        "price":129.0502759039
     },
     {
         "RegionName":"Charlottesville, VA",
         "lat":38.0375,
         "lng":-78.4855,
-        "housingPercentChange":71.4268196986
+        "price":71.4268196986
     },
     {
         "RegionName":"Chattanooga, TN",
         "lat":35.066,
         "lng":-85.2481,
-        "housingPercentChange":108.1280527766
+        "price":108.1280527766
     },
     {
         "RegionName":"Cheyenne, WY",
         "lat":41.135,
         "lng":-104.7902,
-        "housingPercentChange":61.164594653
+        "price":61.164594653
     },
     {
         "RegionName":"Chicago, IL",
         "lat":41.8375,
         "lng":-87.6866,
-        "housingPercentChange":68.2678327397
+        "price":68.2678327397
     },
     {
         "RegionName":"Cincinnati, OH",
         "lat":39.1413,
         "lng":-84.506,
-        "housingPercentChange":95.6606029809
+        "price":95.6606029809
     },
     {
         "RegionName":"Clarksville, TN",
         "lat":36.5692,
         "lng":-87.3413,
-        "housingPercentChange":89.3247585723
+        "price":89.3247585723
     },
     {
         "RegionName":"Cleveland, OH",
         "lat":41.4764,
         "lng":-81.6805,
-        "housingPercentChange":88.5583396258
+        "price":88.5583396258
     },
     {
         "RegionName":"College Station, TX",
         "lat":30.5852,
         "lng":-96.2959,
-        "housingPercentChange":71.022938921
+        "price":71.022938921
     },
     {
         "RegionName":"Colorado Springs, CO",
         "lat":38.8674,
         "lng":-104.7605,
-        "housingPercentChange":101.2282425213
+        "price":101.2282425213
     },
     {
         "RegionName":"Columbia, MO",
         "lat":38.9472,
         "lng":-92.3268,
-        "housingPercentChange":78.4286622878
+        "price":78.4286622878
     },
     {
         "RegionName":"Columbia, SC",
         "lat":34.0378,
         "lng":-80.9036,
-        "housingPercentChange":88.0925435843
+        "price":88.0925435843
     },
     {
         "RegionName":"Columbus, GA",
         "lat":32.51,
         "lng":-84.8771,
-        "housingPercentChange":70.7926777225
+        "price":70.7926777225
     },
     {
         "RegionName":"Columbus, OH",
         "lat":39.9862,
         "lng":-82.9855,
-        "housingPercentChange":109.9156902625
+        "price":109.9156902625
     },
     {
         "RegionName":"Corpus Christi, TX",
         "lat":27.7254,
         "lng":-97.3767,
-        "housingPercentChange":53.7660376186
+        "price":53.7660376186
     },
     {
         "RegionName":"Crestview, FL",
         "lat":30.7477,
         "lng":-86.5785,
-        "housingPercentChange":95.7645551721
+        "price":95.7645551721
     },
     {
         "RegionName":"Dallas, TX",
         "lat":32.7935,
         "lng":-96.7667,
-        "housingPercentChange":115.2717108472
+        "price":115.2717108472
     },
     {
         "RegionName":"Davenport, IA",
         "lat":41.5565,
         "lng":-90.6053,
-        "housingPercentChange":40.4993111466
+        "price":40.4993111466
     },
     {
         "RegionName":"Deltona, FL",
         "lat":28.905,
         "lng":-81.2137,
-        "housingPercentChange":133.8625234757
+        "price":133.8625234757
     },
     {
         "RegionName":"Denver, CO",
         "lat":39.762,
         "lng":-104.8758,
-        "housingPercentChange":98.6385242107
+        "price":98.6385242107
     },
     {
         "RegionName":"Des Moines, IA",
         "lat":41.5725,
         "lng":-93.6105,
-        "housingPercentChange":75.2064907822
+        "price":75.2064907822
     },
     {
         "RegionName":"Detroit, MI",
         "lat":42.3834,
         "lng":-83.1024,
-        "housingPercentChange":108.1798288831
+        "price":108.1798288831
     },
     {
         "RegionName":"El Paso, TX",
         "lat":31.8476,
         "lng":-106.43,
-        "housingPercentChange":77.6051134374
+        "price":77.6051134374
     },
     {
         "RegionName":"Eugene, OR",
         "lat":44.0564,
         "lng":-123.1174,
-        "housingPercentChange":106.6248250681
+        "price":106.6248250681
     },
     {
         "RegionName":"Fayetteville, AR",
         "lat":36.0714,
         "lng":-94.1661,
-        "housingPercentChange":120.103723226
+        "price":120.103723226
     },
     {
         "RegionName":"Fayetteville, NC",
         "lat":35.085,
         "lng":-78.9772,
-        "housingPercentChange":83.6925030941
+        "price":83.6925030941
     },
     {
         "RegionName":"Fort Wayne, IN",
         "lat":41.0888,
         "lng":-85.1436,
-        "housingPercentChange":112.0640428321
+        "price":112.0640428321
     },
     {
         "RegionName":"Fresno, CA",
         "lat":36.783,
         "lng":-119.7939,
-        "housingPercentChange":101.6248042386
+        "price":101.6248042386
     },
     {
         "RegionName":"Gainesville, FL",
         "lat":29.6804,
         "lng":-82.3459,
-        "housingPercentChange":106.3995544424
+        "price":106.3995544424
     },
     {
         "RegionName":"Gainesville, GA",
         "lat":34.2902,
         "lng":-83.8294,
-        "housingPercentChange":128.487506523
+        "price":128.487506523
     },
     {
         "RegionName":"Grand Junction, CO",
         "lat":39.0877,
         "lng":-108.5673,
-        "housingPercentChange":105.4858046028
+        "price":105.4858046028
     },
     {
         "RegionName":"Grand Rapids, MI",
         "lat":42.9619,
         "lng":-85.6562,
-        "housingPercentChange":117.0527457411
+        "price":117.0527457411
     },
     {
         "RegionName":"Greensboro, NC",
         "lat":36.0956,
         "lng":-79.8271,
-        "housingPercentChange":101.7080355031
+        "price":101.7080355031
     },
     {
         "RegionName":"Greenville, NC",
         "lat":35.5943,
         "lng":-77.376,
-        "housingPercentChange":91.1015896637
+        "price":91.1015896637
     },
     {
         "RegionName":"Greenville, SC",
         "lat":34.8354,
         "lng":-82.3646,
-        "housingPercentChange":104.3872129392
+        "price":104.3872129392
     },
     {
         "RegionName":"Gulfport, MS",
         "lat":30.4274,
         "lng":-89.0704,
-        "housingPercentChange":77.6709340424
+        "price":77.6709340424
     },
     {
         "RegionName":"Hagerstown, MD",
         "lat":39.6401,
         "lng":-77.7217,
-        "housingPercentChange":75.9425059572
+        "price":75.9425059572
     },
     {
         "RegionName":"Harrisburg, PA",
         "lat":40.2752,
         "lng":-76.8843,
-        "housingPercentChange":67.332853877
+        "price":67.332853877
     },
     {
         "RegionName":"Hartford, CT",
         "lat":41.7661,
         "lng":-72.6834,
-        "housingPercentChange":66.9757056729
+        "price":66.9757056729
     },
     {
         "RegionName":"Hilton Head Island, SC",
         "lat":32.1896,
         "lng":-80.7499,
-        "housingPercentChange":98.2774997582
+        "price":98.2774997582
     },
     {
         "RegionName":"Houston, TX",
         "lat":29.786,
         "lng":-95.3885,
-        "housingPercentChange":74.881689167
+        "price":74.881689167
     },
     {
         "RegionName":"Huntsville, AL",
         "lat":34.6981,
         "lng":-86.6412,
-        "housingPercentChange":85.8733772603
+        "price":85.8733772603
     },
     {
         "RegionName":"Indianapolis, IN",
         "lat":39.7771,
         "lng":-86.1458,
-        "housingPercentChange":106.2809080292
+        "price":106.2809080292
     },
     {
         "RegionName":"Jacksonville, FL",
         "lat":30.3322,
         "lng":-81.6749,
-        "housingPercentChange":115.3218088706
+        "price":115.3218088706
     },
     {
         "RegionName":"Kalamazoo, MI",
         "lat":42.2749,
         "lng":-85.5882,
-        "housingPercentChange":89.3348110079
+        "price":89.3348110079
     },
     {
         "RegionName":"Kansas City, MO",
         "lat":39.1238,
         "lng":-94.5541,
-        "housingPercentChange":103.1488047778
+        "price":103.1488047778
     },
     {
         "RegionName":"Killeen, TX",
         "lat":31.0753,
         "lng":-97.7297,
-        "housingPercentChange":89.5659085564
+        "price":89.5659085564
     },
     {
         "RegionName":"Knoxville, TN",
         "lat":35.9692,
         "lng":-83.9496,
-        "housingPercentChange":132.4977919185
+        "price":132.4977919185
     },
     {
         "RegionName":"Lafayette, IN",
         "lat":40.3991,
         "lng":-86.8593,
-        "housingPercentChange":103.5790084686
+        "price":103.5790084686
     },
     {
         "RegionName":"Lakeland, FL",
         "lat":28.0557,
         "lng":-81.9545,
-        "housingPercentChange":137.7764265656
+        "price":137.7764265656
     },
     {
         "RegionName":"Lancaster, PA",
         "lat":40.042,
         "lng":-76.3012,
-        "housingPercentChange":79.3651722039
+        "price":79.3651722039
     },
     {
         "RegionName":"Lansing, MI",
         "lat":42.7142,
         "lng":-84.5601,
-        "housingPercentChange":90.5668832573
+        "price":90.5668832573
     },
     {
         "RegionName":"Las Cruces, NM",
         "lat":32.3265,
         "lng":-106.7893,
-        "housingPercentChange":73.4707653311
+        "price":73.4707653311
     },
     {
         "RegionName":"Las Vegas, NV",
         "lat":36.2333,
         "lng":-115.2654,
-        "housingPercentChange":116.8445145334
+        "price":116.8445145334
     },
     {
         "RegionName":"Lawton, OK",
         "lat":34.6175,
         "lng":-98.4202,
-        "housingPercentChange":30.7505661792
+        "price":30.7505661792
     },
     {
         "RegionName":"Lexington, KY",
         "lat":38.0423,
         "lng":-84.4587,
-        "housingPercentChange":92.0756141115
+        "price":92.0756141115
     },
     {
         "RegionName":"Little Rock, AR",
         "lat":34.7256,
         "lng":-92.3577,
-        "housingPercentChange":48.5151718418
+        "price":48.5151718418
     },
     {
         "RegionName":"Los Angeles, CA",
         "lat":34.1141,
         "lng":-118.4068,
-        "housingPercentChange":87.0534089369
+        "price":87.0534089369
     },
     {
         "RegionName":"Louisville, KY",
         "lat":38.1663,
         "lng":-85.6485,
-        "housingPercentChange":81.7287269976
+        "price":81.7287269976
     },
     {
         "RegionName":"Lubbock, TX",
         "lat":33.5657,
         "lng":-101.8879,
-        "housingPercentChange":57.0989453409
+        "price":57.0989453409
     },
     {
         "RegionName":"Lynchburg, VA",
         "lat":37.4003,
         "lng":-79.1909,
-        "housingPercentChange":79.5760812837
+        "price":79.5760812837
     },
     {
         "RegionName":"Madison, WI",
         "lat":43.0822,
         "lng":-89.393,
-        "housingPercentChange":89.0376809937
+        "price":89.0376809937
     },
     {
         "RegionName":"Manhattan, KS",
         "lat":39.1886,
         "lng":-96.6048,
-        "housingPercentChange":45.1740835333
+        "price":45.1740835333
     },
     {
         "RegionName":"Medford, OR",
         "lat":42.3372,
         "lng":-122.854,
-        "housingPercentChange":81.3414374765
+        "price":81.3414374765
     },
     {
         "RegionName":"Memphis, TN",
         "lat":35.1087,
         "lng":-89.9663,
-        "housingPercentChange":101.3674007873
+        "price":101.3674007873
     },
     {
         "RegionName":"Merced, CA",
         "lat":37.3057,
         "lng":-120.4779,
-        "housingPercentChange":119.986167801
+        "price":119.986167801
     },
     {
         "RegionName":"Miami, FL",
         "lat":25.784,
         "lng":-80.2101,
-        "housingPercentChange":132.8614671564
+        "price":132.8614671564
     },
     {
         "RegionName":"Milwaukee, WI",
         "lat":43.0642,
         "lng":-87.9675,
-        "housingPercentChange":84.382826968
+        "price":84.382826968
     },
     {
         "RegionName":"Minneapolis, MN",
         "lat":44.9635,
         "lng":-93.2678,
-        "housingPercentChange":68.9363705177
+        "price":68.9363705177
     },
     {
         "RegionName":"Mobile, AL",
         "lat":30.6782,
         "lng":-88.1162,
-        "housingPercentChange":82.5196216576
+        "price":82.5196216576
     },
     {
         "RegionName":"Modesto, CA",
         "lat":37.6375,
         "lng":-121.0028,
-        "housingPercentChange":105.5503429189
+        "price":105.5503429189
     },
     {
         "RegionName":"Montgomery, AL",
         "lat":32.3482,
         "lng":-86.2668,
-        "housingPercentChange":50.4600994161
+        "price":50.4600994161
     },
     {
         "RegionName":"Myrtle Beach, SC",
         "lat":33.7094,
         "lng":-78.8844,
-        "housingPercentChange":93.2408371028
+        "price":93.2408371028
     },
     {
         "RegionName":"Naples, FL",
         "lat":26.1504,
         "lng":-81.7936,
-        "housingPercentChange":109.4366852836
+        "price":109.4366852836
     },
     {
         "RegionName":"Nashville, TN",
         "lat":36.1715,
         "lng":-86.7842,
-        "housingPercentChange":128.6164743348
+        "price":128.6164743348
     },
     {
         "RegionName":"New Haven, CT",
         "lat":41.3113,
         "lng":-72.9246,
-        "housingPercentChange":74.243909977
+        "price":74.243909977
     },
     {
         "RegionName":"New Orleans, LA",
         "lat":30.0687,
         "lng":-89.9288,
-        "housingPercentChange":22.8949461659
+        "price":22.8949461659
     },
     {
         "RegionName":"New York, NY",
         "lat":40.6943,
         "lng":-73.9249,
-        "housingPercentChange":70.5547036984
+        "price":70.5547036984
     },
     {
         "RegionName":"North Port, FL",
         "lat":27.0576,
         "lng":-82.1977,
-        "housingPercentChange":114.4652979818
+        "price":114.4652979818
     },
     {
         "RegionName":"Norwich, CT",
         "lat":41.5495,
         "lng":-72.0882,
-        "housingPercentChange":78.2426687228
+        "price":78.2426687228
     },
     {
         "RegionName":"Oak Harbor, WA",
         "lat":48.2964,
         "lng":-122.6333,
-        "housingPercentChange":115.6693511137
+        "price":115.6693511137
     },
     {
         "RegionName":"Ocala, FL",
         "lat":29.178,
         "lng":-82.1511,
-        "housingPercentChange":140.5829587827
+        "price":140.5829587827
     },
     {
         "RegionName":"Ogden, UT",
         "lat":41.2279,
         "lng":-111.9682,
-        "housingPercentChange":138.2696230019
+        "price":138.2696230019
     },
     {
         "RegionName":"Oklahoma City, OK",
         "lat":35.4676,
         "lng":-97.5136,
-        "housingPercentChange":68.7031984118
+        "price":68.7031984118
     },
     {
         "RegionName":"Olympia, WA",
         "lat":47.0417,
         "lng":-122.8959,
-        "housingPercentChange":119.997850497
+        "price":119.997850497
     },
     {
         "RegionName":"Omaha, NE",
         "lat":41.2627,
         "lng":-96.0529,
-        "housingPercentChange":93.6231848431
+        "price":93.6231848431
     },
     {
         "RegionName":"Orlando, FL",
         "lat":28.4773,
         "lng":-81.337,
-        "housingPercentChange":122.6751045016
+        "price":122.6751045016
     },
     {
         "RegionName":"Oxnard, CA",
         "lat":34.1964,
         "lng":-119.1815,
-        "housingPercentChange":74.2283050917
+        "price":74.2283050917
     },
     {
         "RegionName":"Palm Bay, FL",
         "lat":27.9631,
         "lng":-80.6593,
-        "housingPercentChange":142.2733924603
+        "price":142.2733924603
     },
     {
         "RegionName":"Pensacola, FL",
         "lat":30.4413,
         "lng":-87.1911,
-        "housingPercentChange":116.7662206047
+        "price":116.7662206047
     },
     {
         "RegionName":"Philadelphia, PA",
         "lat":40.0077,
         "lng":-75.1339,
-        "housingPercentChange":76.6455136221
+        "price":76.6455136221
     },
     {
         "RegionName":"Phoenix, AZ",
         "lat":33.5722,
         "lng":-112.0892,
-        "housingPercentChange":122.5227151163
+        "price":122.5227151163
     },
     {
         "RegionName":"Pittsburgh, PA",
         "lat":40.4397,
         "lng":-79.9763,
-        "housingPercentChange":63.5963940211
+        "price":63.5963940211
     },
     {
         "RegionName":"Port St. Lucie, FL",
         "lat":27.2796,
         "lng":-80.3884,
-        "housingPercentChange":157.2918595485
+        "price":157.2918595485
     },
     {
         "RegionName":"Portland, OR",
         "lat":45.5371,
         "lng":-122.65,
-        "housingPercentChange":90.6382116775
+        "price":90.6382116775
     },
     {
         "RegionName":"Providence, RI",
         "lat":41.823,
         "lng":-71.4187,
-        "housingPercentChange":99.8137033673
+        "price":99.8137033673
     },
     {
         "RegionName":"Provo, UT",
         "lat":40.2457,
         "lng":-111.6457,
-        "housingPercentChange":117.2241797871
+        "price":117.2241797871
     },
     {
         "RegionName":"Punta Gorda, FL",
         "lat":26.8941,
         "lng":-82.0513,
-        "housingPercentChange":127.0798773165
+        "price":127.0798773165
     },
     {
         "RegionName":"Raleigh, NC",
         "lat":35.8324,
         "lng":-78.6429,
-        "housingPercentChange":103.0820715321
+        "price":103.0820715321
     },
     {
         "RegionName":"Reno, NV",
         "lat":39.5497,
         "lng":-119.8483,
-        "housingPercentChange":119.4961255388
+        "price":119.4961255388
     },
     {
         "RegionName":"Richmond, VA",
         "lat":37.5295,
         "lng":-77.4756,
-        "housingPercentChange":88.3880599141
+        "price":88.3880599141
     },
     {
         "RegionName":"Riverside, CA",
         "lat":33.9381,
         "lng":-117.3949,
-        "housingPercentChange":108.0912250752
+        "price":108.0912250752
     },
     {
         "RegionName":"Rockford, IL",
         "lat":42.2596,
         "lng":-89.064,
-        "housingPercentChange":115.3400158817
+        "price":115.3400158817
     },
     {
         "RegionName":"Sacramento, CA",
         "lat":38.5677,
         "lng":-121.4685,
-        "housingPercentChange":85.1856009482
+        "price":85.1856009482
     },
     {
         "RegionName":"Salem, OR",
         "lat":44.9233,
         "lng":-123.0244,
-        "housingPercentChange":127.8000179117
+        "price":127.8000179117
     },
     {
         "RegionName":"Salinas, CA",
         "lat":36.6883,
         "lng":-121.6317,
-        "housingPercentChange":97.4946663978
+        "price":97.4946663978
     },
     {
         "RegionName":"Salt Lake City, UT",
         "lat":40.7776,
         "lng":-111.9311,
-        "housingPercentChange":122.9131835836
+        "price":122.9131835836
     },
     {
         "RegionName":"San Antonio, TX",
         "lat":29.4632,
         "lng":-98.5238,
-        "housingPercentChange":79.1228348333
+        "price":79.1228348333
     },
     {
         "RegionName":"San Diego, CA",
         "lat":32.8313,
         "lng":-117.1222,
-        "housingPercentChange":108.6767022151
+        "price":108.6767022151
     },
     {
         "RegionName":"San Francisco, CA",
         "lat":37.7558,
         "lng":-122.4449,
-        "housingPercentChange":80.1964406225
+        "price":80.1964406225
     },
     {
         "RegionName":"San Luis Obispo, CA",
         "lat":35.2669,
         "lng":-120.669,
-        "housingPercentChange":84.6116523209
+        "price":84.6116523209
     },
     {
         "RegionName":"Santa Rosa, CA",
         "lat":38.4458,
         "lng":-122.7067,
-        "housingPercentChange":64.0557869171
+        "price":64.0557869171
     },
     {
         "RegionName":"Savannah, GA",
         "lat":32.0286,
         "lng":-81.1821,
-        "housingPercentChange":103.2002376638
+        "price":103.2002376638
     },
     {
         "RegionName":"Seattle, WA",
         "lat":47.6211,
         "lng":-122.3244,
-        "housingPercentChange":125.6684209572
+        "price":125.6684209572
     },
     {
         "RegionName":"Sebastian, FL",
         "lat":27.7822,
         "lng":-80.4819,
-        "housingPercentChange":132.009129382
+        "price":132.009129382
     },
     {
         "RegionName":"Shreveport, LA",
         "lat":32.4653,
         "lng":-93.7955,
-        "housingPercentChange":15.5208921221
+        "price":15.5208921221
     },
     {
         "RegionName":"South Bend, IN",
         "lat":41.6767,
         "lng":-86.2696,
-        "housingPercentChange":109.3127304084
+        "price":109.3127304084
     },
     {
         "RegionName":"Spokane, WA",
         "lat":47.6671,
         "lng":-117.433,
-        "housingPercentChange":140.904841719
+        "price":140.904841719
     },
     {
         "RegionName":"Springfield, MO",
         "lat":37.1943,
         "lng":-93.2916,
-        "housingPercentChange":105.5446235177
+        "price":105.5446235177
     },
     {
         "RegionName":"St. Louis, MO",
         "lat":38.6359,
         "lng":-90.2451,
-        "housingPercentChange":73.8868403698
+        "price":73.8868403698
     },
     {
         "RegionName":"Stockton, CA",
         "lat":37.9765,
         "lng":-121.3109,
-        "housingPercentChange":103.7793665544
+        "price":103.7793665544
     },
     {
         "RegionName":"Tallahassee, FL",
         "lat":30.4551,
         "lng":-84.2527,
-        "housingPercentChange":85.2881013223
+        "price":85.2881013223
     },
     {
         "RegionName":"Tampa, FL",
         "lat":27.9945,
         "lng":-82.4447,
-        "housingPercentChange":142.769286623
+        "price":142.769286623
     },
     {
         "RegionName":"Toledo, OH",
         "lat":41.6638,
         "lng":-83.5827,
-        "housingPercentChange":87.9561543638
+        "price":87.9561543638
     },
     {
         "RegionName":"Topeka, KS",
         "lat":39.0346,
         "lng":-95.6955,
-        "housingPercentChange":88.6373534578
+        "price":88.6373534578
     },
     {
         "RegionName":"Trenton, NJ",
         "lat":40.2237,
         "lng":-74.7641,
-        "housingPercentChange":80.0963294422
+        "price":80.0963294422
     },
     {
         "RegionName":"Tucson, AZ",
         "lat":32.1541,
         "lng":-110.8787,
-        "housingPercentChange":101.574627486
+        "price":101.574627486
     },
     {
         "RegionName":"Tulsa, OK",
         "lat":36.1283,
         "lng":-95.9042,
-        "housingPercentChange":78.3668242264
+        "price":78.3668242264
     },
     {
         "RegionName":"Vallejo, CA",
         "lat":38.1125,
         "lng":-122.2342,
-        "housingPercentChange":83.8321451481
+        "price":83.8321451481
     },
     {
         "RegionName":"Virginia Beach, VA",
         "lat":36.7335,
         "lng":-76.0435,
-        "housingPercentChange":61.6920898759
+        "price":61.6920898759
     },
     {
         "RegionName":"Washington, DC",
         "lat":38.9047,
         "lng":-77.0163,
-        "housingPercentChange":53.6059879852
+        "price":53.6059879852
     },
     {
         "RegionName":"Wichita, KS",
         "lat":37.6895,
         "lng":-97.3443,
-        "housingPercentChange":86.1470825536
+        "price":86.1470825536
     },
     {
         "RegionName":"Wilmington, NC",
         "lat":34.2099,
         "lng":-77.8866,
-        "housingPercentChange":106.4074895584
+        "price":106.4074895584
     },
     {
         "RegionName":"Winchester, VA",
         "lat":39.1735,
         "lng":-78.1746,
-        "housingPercentChange":77.7431720604
+        "price":77.7431720604
     },
     {
         "RegionName":"York, PA",
         "lat":39.9651,
         "lng":-76.7315,
-        "housingPercentChange":76.8117124393
+        "price":76.8117124393
     }
 ]
