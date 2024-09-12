@@ -9,16 +9,32 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Variables to hold markers
 var rentalMarkers = [];
 var homeMarkers = [];
-var percentMarkers = [];
+var homePercentMarkers = [];
+var rentalPercentMarkers = [];
 
 // Function to create markers
 function createMarkers(data, markersArray, color, scalingFactor) {
     data.forEach(function(item) {
-        // Calculate marker size based on price and scaling factor
-        var markerSize = item.price / scalingFactor; // Adjust this factor as needed
 
+        // Ensure that price, lat, and lng are valid numbers
+        const price = parseFloat(item.price);
+        const lat = parseFloat(item.lat);
+        const lng = parseFloat(item.lng);
+        
+        // Check if lat, lng, and price are valid numbers
+        if (isNaN(price) || isNaN(lat) || isNaN(lng)) {
+            console.error("Invalid data:", item); // Log invalid entries
+            return; // Skip invalid entries
+        }
+        
+        // Calculate marker size based on price and scaling factor
+        var markerSize = price / scalingFactor;
+        if (markerSize <= 0) {
+            markerSize = 1; // Prevent markers with size <= 0
+        }
+        
         // Create a circle marker
-        var marker = L.circleMarker([item.lat, item.lng], {
+        var marker = L.circleMarker([lat, lng], {
             radius: markerSize,
             color: color,
             fillColor: color,
@@ -26,7 +42,7 @@ function createMarkers(data, markersArray, color, scalingFactor) {
         });
 
         // Add a popup with additional information
-        marker.bindPopup(`Price: $${item.price}`);
+        marker.bindPopup(`Price: $${price}`);
         
         // Add marker to the map and store it in the array
         marker.addTo(map);
@@ -48,19 +64,18 @@ fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Ana
         createMarkers(data, homeMarkers, 'green', 36000); // Create home value markers with a different scaling factor
     });
 
-
 // Load home percents data
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/home_percents.json')
     .then(response => response.json())
     .then(data => {
-        createMarkers(data, percentMarkers, 'pink', 2); // Create home percent markers with a different scaling factor
+        createMarkers(data, homePercentMarkers, 'red', 7); // Create home percent markers with a different scaling factor
     });
 
 // Load rental percents data
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/rental_percents.json')
 .then(response => response.json())
 .then(data => {
-    createMarkers(data, percentMarkers, 'orange', 2); // Create rental percent markers with a different scaling factor
+    createMarkers(data, rentalPercentMarkers, 'orange', 7); // Create rental percent markers with a different scaling factor
 });
 
 // Function to toggle maps
@@ -70,17 +85,18 @@ function toggleMap() {
     // Clear all markers from the map
     rentalMarkers.forEach(marker => map.removeLayer(marker));
     homeMarkers.forEach(marker => map.removeLayer(marker));
-    percentMarkers.forEach(marker => map.removeLayer(marker));
+    homePercentMarkers.forEach(marker => map.removeLayer(marker));
+    rentalPercentMarkers.forEach(marker => map.removeLayer(marker));
 
     // Add markers based on selection
     if (selectedValue === 'rental') {
         rentalMarkers.forEach(marker => marker.addTo(map));
     } else if (selectedValue === 'home') {
         homeMarkers.forEach(marker => marker.addTo(map));
-    } else if (selectedValue === 'home percent') {
-        homeMarkers.forEach(marker => marker.addTo(map));
-    } else if (selectedValue === 'rental percent') {
-        homeMarkers.forEach(marker => marker.addTo(map));
+    } else if (selectedValue === 'home percents') {
+        homePercentMarkers.forEach(marker => marker.addTo(map)); 
+    } else if (selectedValue === 'rental percents') {
+        rentalPercentMarkers.forEach(marker => marker.addTo(map)); 
     }
 }
 
@@ -89,4 +105,5 @@ document.getElementById('mapSelector').addEventListener('change', toggleMap);
 
 // Initial load: show rental prices by default
 toggleMap();
+
 
