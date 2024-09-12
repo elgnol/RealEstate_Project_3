@@ -1,0 +1,962 @@
+[
+    {
+        "RegionName":"Abilene, TX",
+        "lat":32.4543,
+        "lng":-99.7384,
+        "rentalPercentChange":57.3090693118
+    },
+    {
+        "RegionName":"Akron, OH",
+        "lat":41.0798,
+        "lng":-81.5219,
+        "rentalPercentChange":69.8073087786
+    },
+    {
+        "RegionName":"Albany, NY",
+        "lat":42.6664,
+        "lng":-73.7987,
+        "rentalPercentChange":66.7964580583
+    },
+    {
+        "RegionName":"Albuquerque, NM",
+        "lat":35.1054,
+        "lng":-106.6465,
+        "rentalPercentChange":83.4745744926
+    },
+    {
+        "RegionName":"Allentown, PA",
+        "lat":40.5961,
+        "lng":-75.4756,
+        "rentalPercentChange":70.2737130725
+    },
+    {
+        "RegionName":"Ann Arbor, MI",
+        "lat":42.2759,
+        "lng":-83.731,
+        "rentalPercentChange":67.649904419
+    },
+    {
+        "RegionName":"Asheville, NC",
+        "lat":35.5707,
+        "lng":-82.5537,
+        "rentalPercentChange":99.5614401695
+    },
+    {
+        "RegionName":"Athens, GA",
+        "lat":33.9508,
+        "lng":-83.3689,
+        "rentalPercentChange":116.5155771193
+    },
+    {
+        "RegionName":"Atlanta, GA",
+        "lat":33.7628,
+        "lng":-84.422,
+        "rentalPercentChange":97.1107034815
+    },
+    {
+        "RegionName":"Atlantic City, NJ",
+        "lat":39.3797,
+        "lng":-74.4527,
+        "rentalPercentChange":128.4894193713
+    },
+    {
+        "RegionName":"Augusta, GA",
+        "lat":33.3645,
+        "lng":-82.0708,
+        "rentalPercentChange":74.382095725
+    },
+    {
+        "RegionName":"Austin, TX",
+        "lat":30.3005,
+        "lng":-97.7522,
+        "rentalPercentChange":55.2829708025
+    },
+    {
+        "RegionName":"Bakersfield, CA",
+        "lat":35.3529,
+        "lng":-119.0359,
+        "rentalPercentChange":79.6756687781
+    },
+    {
+        "RegionName":"Baltimore, MD",
+        "lat":39.3051,
+        "lng":-76.6144,
+        "rentalPercentChange":43.9086465332
+    },
+    {
+        "RegionName":"Baton Rouge, LA",
+        "lat":30.442,
+        "lng":-91.1311,
+        "rentalPercentChange":34.9632027288
+    },
+    {
+        "RegionName":"Beaumont, TX",
+        "lat":30.0849,
+        "lng":-94.1451,
+        "rentalPercentChange":57.373495888
+    },
+    {
+        "RegionName":"Birmingham, AL",
+        "lat":33.5279,
+        "lng":-86.7971,
+        "rentalPercentChange":55.6222031996
+    },
+    {
+        "RegionName":"Boston, MA",
+        "lat":42.3188,
+        "lng":-71.0852,
+        "rentalPercentChange":67.9283647706
+    },
+    {
+        "RegionName":"Boulder, CO",
+        "lat":40.0248,
+        "lng":-105.2524,
+        "rentalPercentChange":60.4134087764
+    },
+    {
+        "RegionName":"Bremerton, WA",
+        "lat":47.5436,
+        "lng":-122.7121,
+        "rentalPercentChange":91.8011231166
+    },
+    {
+        "RegionName":"Bridgeport, CT",
+        "lat":41.1918,
+        "lng":-73.1954,
+        "rentalPercentChange":80.7640375103
+    },
+    {
+        "RegionName":"Buffalo, NY",
+        "lat":42.9018,
+        "lng":-78.8487,
+        "rentalPercentChange":81.720461956
+    },
+    {
+        "RegionName":"Cape Coral, FL",
+        "lat":26.6443,
+        "lng":-81.9957,
+        "rentalPercentChange":108.4956152637
+    },
+    {
+        "RegionName":"Champaign, IL",
+        "lat":40.1142,
+        "lng":-88.2737,
+        "rentalPercentChange":62.7868613404
+    },
+    {
+        "RegionName":"Charleston, SC",
+        "lat":32.8168,
+        "lng":-79.9687,
+        "rentalPercentChange":95.0446047053
+    },
+    {
+        "RegionName":"Charlotte, NC",
+        "lat":35.2083,
+        "lng":-80.8303,
+        "rentalPercentChange":84.9539827677
+    },
+    {
+        "RegionName":"Charlottesville, VA",
+        "lat":38.0375,
+        "lng":-78.4855,
+        "rentalPercentChange":82.0277711299
+    },
+    {
+        "RegionName":"Chattanooga, TN",
+        "lat":35.066,
+        "lng":-85.2481,
+        "rentalPercentChange":92.8942215128
+    },
+    {
+        "RegionName":"Cheyenne, WY",
+        "lat":41.135,
+        "lng":-104.7902,
+        "rentalPercentChange":52.3028485463
+    },
+    {
+        "RegionName":"Chicago, IL",
+        "lat":41.8375,
+        "lng":-87.6866,
+        "rentalPercentChange":55.3473442155
+    },
+    {
+        "RegionName":"Cincinnati, OH",
+        "lat":39.1413,
+        "lng":-84.506,
+        "rentalPercentChange":80.9714919542
+    },
+    {
+        "RegionName":"Clarksville, TN",
+        "lat":36.5692,
+        "lng":-87.3413,
+        "rentalPercentChange":69.6019395048
+    },
+    {
+        "RegionName":"Cleveland, OH",
+        "lat":41.4764,
+        "lng":-81.6805,
+        "rentalPercentChange":66.9624722249
+    },
+    {
+        "RegionName":"College Station, TX",
+        "lat":30.5852,
+        "lng":-96.2959,
+        "rentalPercentChange":49.9613983605
+    },
+    {
+        "RegionName":"Colorado Springs, CO",
+        "lat":38.8674,
+        "lng":-104.7605,
+        "rentalPercentChange":82.4336966835
+    },
+    {
+        "RegionName":"Columbia, MO",
+        "lat":38.9472,
+        "lng":-92.3268,
+        "rentalPercentChange":70.9408957062
+    },
+    {
+        "RegionName":"Columbia, SC",
+        "lat":34.0378,
+        "lng":-80.9036,
+        "rentalPercentChange":73.1686310241
+    },
+    {
+        "RegionName":"Columbus, GA",
+        "lat":32.51,
+        "lng":-84.8771,
+        "rentalPercentChange":65.4995361853
+    },
+    {
+        "RegionName":"Columbus, OH",
+        "lat":39.9862,
+        "lng":-82.9855,
+        "rentalPercentChange":79.3400490933
+    },
+    {
+        "RegionName":"Corpus Christi, TX",
+        "lat":27.7254,
+        "lng":-97.3767,
+        "rentalPercentChange":36.8181336165
+    },
+    {
+        "RegionName":"Crestview, FL",
+        "lat":30.7477,
+        "lng":-86.5785,
+        "rentalPercentChange":88.1835556575
+    },
+    {
+        "RegionName":"Dallas, TX",
+        "lat":32.7935,
+        "lng":-96.7667,
+        "rentalPercentChange":70.769930241
+    },
+    {
+        "RegionName":"Davenport, IA",
+        "lat":41.5565,
+        "lng":-90.6053,
+        "rentalPercentChange":42.9615479998
+    },
+    {
+        "RegionName":"Deltona, FL",
+        "lat":28.905,
+        "lng":-81.2137,
+        "rentalPercentChange":98.3683533807
+    },
+    {
+        "RegionName":"Denver, CO",
+        "lat":39.762,
+        "lng":-104.8758,
+        "rentalPercentChange":68.077763501
+    },
+    {
+        "RegionName":"Des Moines, IA",
+        "lat":41.5725,
+        "lng":-93.6105,
+        "rentalPercentChange":43.1043613532
+    },
+    {
+        "RegionName":"Detroit, MI",
+        "lat":42.3834,
+        "lng":-83.1024,
+        "rentalPercentChange":72.7313666311
+    },
+    {
+        "RegionName":"El Paso, TX",
+        "lat":31.8476,
+        "lng":-106.43,
+        "rentalPercentChange":58.4342591596
+    },
+    {
+        "RegionName":"Eugene, OR",
+        "lat":44.0564,
+        "lng":-123.1174,
+        "rentalPercentChange":88.6722736377
+    },
+    {
+        "RegionName":"Fayetteville, AR",
+        "lat":36.0714,
+        "lng":-94.1661,
+        "rentalPercentChange":77.0451796252
+    },
+    {
+        "RegionName":"Fayetteville, NC",
+        "lat":35.085,
+        "lng":-78.9772,
+        "rentalPercentChange":79.8308974413
+    },
+    {
+        "RegionName":"Fort Wayne, IN",
+        "lat":41.0888,
+        "lng":-85.1436,
+        "rentalPercentChange":79.1815849023
+    },
+    {
+        "RegionName":"Fresno, CA",
+        "lat":36.783,
+        "lng":-119.7939,
+        "rentalPercentChange":89.2448956563
+    },
+    {
+        "RegionName":"Gainesville, FL",
+        "lat":29.6804,
+        "lng":-82.3459,
+        "rentalPercentChange":81.9895190159
+    },
+    {
+        "RegionName":"Gainesville, GA",
+        "lat":34.2902,
+        "lng":-83.8294,
+        "rentalPercentChange":109.5756546106
+    },
+    {
+        "RegionName":"Grand Junction, CO",
+        "lat":39.0877,
+        "lng":-108.5673,
+        "rentalPercentChange":86.0526061645
+    },
+    {
+        "RegionName":"Grand Rapids, MI",
+        "lat":42.9619,
+        "lng":-85.6562,
+        "rentalPercentChange":103.777727905
+    },
+    {
+        "RegionName":"Greensboro, NC",
+        "lat":36.0956,
+        "lng":-79.8271,
+        "rentalPercentChange":83.4306837215
+    },
+    {
+        "RegionName":"Greenville, NC",
+        "lat":35.5943,
+        "lng":-77.376,
+        "rentalPercentChange":84.9322680141
+    },
+    {
+        "RegionName":"Greenville, SC",
+        "lat":34.8354,
+        "lng":-82.3646,
+        "rentalPercentChange":81.3076937453
+    },
+    {
+        "RegionName":"Gulfport, MS",
+        "lat":30.4274,
+        "lng":-89.0704,
+        "rentalPercentChange":67.9676286568
+    },
+    {
+        "RegionName":"Hagerstown, MD",
+        "lat":39.6401,
+        "lng":-77.7217,
+        "rentalPercentChange":67.1968559782
+    },
+    {
+        "RegionName":"Harrisburg, PA",
+        "lat":40.2752,
+        "lng":-76.8843,
+        "rentalPercentChange":61.0618903137
+    },
+    {
+        "RegionName":"Hartford, CT",
+        "lat":41.7661,
+        "lng":-72.6834,
+        "rentalPercentChange":66.0331060411
+    },
+    {
+        "RegionName":"Hilton Head Island, SC",
+        "lat":32.1896,
+        "lng":-80.7499,
+        "rentalPercentChange":92.9428910039
+    },
+    {
+        "RegionName":"Houston, TX",
+        "lat":29.786,
+        "lng":-95.3885,
+        "rentalPercentChange":42.8683019461
+    },
+    {
+        "RegionName":"Huntsville, AL",
+        "lat":34.6981,
+        "lng":-86.6412,
+        "rentalPercentChange":90.0036869145
+    },
+    {
+        "RegionName":"Indianapolis, IN",
+        "lat":39.7771,
+        "lng":-86.1458,
+        "rentalPercentChange":73.295517068
+    },
+    {
+        "RegionName":"Jacksonville, FL",
+        "lat":30.3322,
+        "lng":-81.6749,
+        "rentalPercentChange":78.9736265275
+    },
+    {
+        "RegionName":"Kalamazoo, MI",
+        "lat":42.2749,
+        "lng":-85.5882,
+        "rentalPercentChange":66.2171334289
+    },
+    {
+        "RegionName":"Kansas City, MO",
+        "lat":39.1238,
+        "lng":-94.5541,
+        "rentalPercentChange":70.8304185209
+    },
+    {
+        "RegionName":"Killeen, TX",
+        "lat":31.0753,
+        "lng":-97.7297,
+        "rentalPercentChange":62.5829672608
+    },
+    {
+        "RegionName":"Knoxville, TN",
+        "lat":35.9692,
+        "lng":-83.9496,
+        "rentalPercentChange":103.4250785463
+    },
+    {
+        "RegionName":"Lafayette, IN",
+        "lat":40.3991,
+        "lng":-86.8593,
+        "rentalPercentChange":78.7110496102
+    },
+    {
+        "RegionName":"Lakeland, FL",
+        "lat":28.0557,
+        "lng":-81.9545,
+        "rentalPercentChange":84.2633181208
+    },
+    {
+        "RegionName":"Lancaster, PA",
+        "lat":40.042,
+        "lng":-76.3012,
+        "rentalPercentChange":74.0721277207
+    },
+    {
+        "RegionName":"Lansing, MI",
+        "lat":42.7142,
+        "lng":-84.5601,
+        "rentalPercentChange":76.7154374968
+    },
+    {
+        "RegionName":"Las Cruces, NM",
+        "lat":32.3265,
+        "lng":-106.7893,
+        "rentalPercentChange":73.0112802062
+    },
+    {
+        "RegionName":"Las Vegas, NV",
+        "lat":36.2333,
+        "lng":-115.2654,
+        "rentalPercentChange":83.3245094183
+    },
+    {
+        "RegionName":"Lawton, OK",
+        "lat":34.6175,
+        "lng":-98.4202,
+        "rentalPercentChange":52.5647973488
+    },
+    {
+        "RegionName":"Lexington, KY",
+        "lat":38.0423,
+        "lng":-84.4587,
+        "rentalPercentChange":74.7281594734
+    },
+    {
+        "RegionName":"Little Rock, AR",
+        "lat":34.7256,
+        "lng":-92.3577,
+        "rentalPercentChange":51.2718843888
+    },
+    {
+        "RegionName":"Los Angeles, CA",
+        "lat":34.1141,
+        "lng":-118.4068,
+        "rentalPercentChange":69.2668531736
+    },
+    {
+        "RegionName":"Louisville, KY",
+        "lat":38.1663,
+        "lng":-85.6485,
+        "rentalPercentChange":72.670901597
+    },
+    {
+        "RegionName":"Lubbock, TX",
+        "lat":33.5657,
+        "lng":-101.8879,
+        "rentalPercentChange":41.9851314073
+    },
+    {
+        "RegionName":"Lynchburg, VA",
+        "lat":37.4003,
+        "lng":-79.1909,
+        "rentalPercentChange":78.5303138984
+    },
+    {
+        "RegionName":"Madison, WI",
+        "lat":43.0822,
+        "lng":-89.393,
+        "rentalPercentChange":63.3761798206
+    },
+    {
+        "RegionName":"Manhattan, KS",
+        "lat":39.1886,
+        "lng":-96.6048,
+        "rentalPercentChange":26.2578243054
+    },
+    {
+        "RegionName":"Medford, OR",
+        "lat":42.3372,
+        "lng":-122.854,
+        "rentalPercentChange":87.8037751571
+    },
+    {
+        "RegionName":"Memphis, TN",
+        "lat":35.1087,
+        "lng":-89.9663,
+        "rentalPercentChange":62.6849679444
+    },
+    {
+        "RegionName":"Merced, CA",
+        "lat":37.3057,
+        "lng":-120.4779,
+        "rentalPercentChange":103.1062710552
+    },
+    {
+        "RegionName":"Miami, FL",
+        "lat":25.784,
+        "lng":-80.2101,
+        "rentalPercentChange":97.9373938554
+    },
+    {
+        "RegionName":"Milwaukee, WI",
+        "lat":43.0642,
+        "lng":-87.9675,
+        "rentalPercentChange":59.3941173441
+    },
+    {
+        "RegionName":"Minneapolis, MN",
+        "lat":44.9635,
+        "lng":-93.2678,
+        "rentalPercentChange":57.2986900017
+    },
+    {
+        "RegionName":"Mobile, AL",
+        "lat":30.6782,
+        "lng":-88.1162,
+        "rentalPercentChange":75.9309599486
+    },
+    {
+        "RegionName":"Modesto, CA",
+        "lat":37.6375,
+        "lng":-121.0028,
+        "rentalPercentChange":106.9425568586
+    },
+    {
+        "RegionName":"Montgomery, AL",
+        "lat":32.3482,
+        "lng":-86.2668,
+        "rentalPercentChange":50.2834609744
+    },
+    {
+        "RegionName":"Myrtle Beach, SC",
+        "lat":33.7094,
+        "lng":-78.8844,
+        "rentalPercentChange":90.9243406206
+    },
+    {
+        "RegionName":"Naples, FL",
+        "lat":26.1504,
+        "lng":-81.7936,
+        "rentalPercentChange":125.9749195049
+    },
+    {
+        "RegionName":"Nashville, TN",
+        "lat":36.1715,
+        "lng":-86.7842,
+        "rentalPercentChange":75.0243594721
+    },
+    {
+        "RegionName":"New Haven, CT",
+        "lat":41.3113,
+        "lng":-72.9246,
+        "rentalPercentChange":74.8869689812
+    },
+    {
+        "RegionName":"New Orleans, LA",
+        "lat":30.0687,
+        "lng":-89.9288,
+        "rentalPercentChange":44.7236658082
+    },
+    {
+        "RegionName":"New York, NY",
+        "lat":40.6943,
+        "lng":-73.9249,
+        "rentalPercentChange":63.387751668
+    },
+    {
+        "RegionName":"North Port, FL",
+        "lat":27.0576,
+        "lng":-82.1977,
+        "rentalPercentChange":89.3639208079
+    },
+    {
+        "RegionName":"Norwich, CT",
+        "lat":41.5495,
+        "lng":-72.0882,
+        "rentalPercentChange":78.629217853
+    },
+    {
+        "RegionName":"Oak Harbor, WA",
+        "lat":48.2964,
+        "lng":-122.6333,
+        "rentalPercentChange":110.4390805001
+    },
+    {
+        "RegionName":"Ocala, FL",
+        "lat":29.178,
+        "lng":-82.1511,
+        "rentalPercentChange":98.8026210156
+    },
+    {
+        "RegionName":"Ogden, UT",
+        "lat":41.2279,
+        "lng":-111.9682,
+        "rentalPercentChange":101.6209802825
+    },
+    {
+        "RegionName":"Oklahoma City, OK",
+        "lat":35.4676,
+        "lng":-97.5136,
+        "rentalPercentChange":49.7801515376
+    },
+    {
+        "RegionName":"Olympia, WA",
+        "lat":47.0417,
+        "lng":-122.8959,
+        "rentalPercentChange":88.9404554069
+    },
+    {
+        "RegionName":"Omaha, NE",
+        "lat":41.2627,
+        "lng":-96.0529,
+        "rentalPercentChange":69.0945563871
+    },
+    {
+        "RegionName":"Orlando, FL",
+        "lat":28.4773,
+        "lng":-81.337,
+        "rentalPercentChange":84.40423305
+    },
+    {
+        "RegionName":"Oxnard, CA",
+        "lat":34.1964,
+        "lng":-119.1815,
+        "rentalPercentChange":68.1371100518
+    },
+    {
+        "RegionName":"Palm Bay, FL",
+        "lat":27.9631,
+        "lng":-80.6593,
+        "rentalPercentChange":102.8492108066
+    },
+    {
+        "RegionName":"Pensacola, FL",
+        "lat":30.4413,
+        "lng":-87.1911,
+        "rentalPercentChange":94.1831841082
+    },
+    {
+        "RegionName":"Philadelphia, PA",
+        "lat":40.0077,
+        "lng":-75.1339,
+        "rentalPercentChange":58.7623458962
+    },
+    {
+        "RegionName":"Phoenix, AZ",
+        "lat":33.5722,
+        "lng":-112.0892,
+        "rentalPercentChange":102.8521322995
+    },
+    {
+        "RegionName":"Pittsburgh, PA",
+        "lat":40.4397,
+        "lng":-79.9763,
+        "rentalPercentChange":52.4512310576
+    },
+    {
+        "RegionName":"Port St. Lucie, FL",
+        "lat":27.2796,
+        "lng":-80.3884,
+        "rentalPercentChange":113.2746257198
+    },
+    {
+        "RegionName":"Portland, OR",
+        "lat":45.5371,
+        "lng":-122.65,
+        "rentalPercentChange":71.0872300755
+    },
+    {
+        "RegionName":"Providence, RI",
+        "lat":41.823,
+        "lng":-71.4187,
+        "rentalPercentChange":90.5472425271
+    },
+    {
+        "RegionName":"Provo, UT",
+        "lat":40.2457,
+        "lng":-111.6457,
+        "rentalPercentChange":81.0982067833
+    },
+    {
+        "RegionName":"Punta Gorda, FL",
+        "lat":26.8941,
+        "lng":-82.0513,
+        "rentalPercentChange":98.885580229
+    },
+    {
+        "RegionName":"Raleigh, NC",
+        "lat":35.8324,
+        "lng":-78.6429,
+        "rentalPercentChange":67.6736407593
+    },
+    {
+        "RegionName":"Reno, NV",
+        "lat":39.5497,
+        "lng":-119.8483,
+        "rentalPercentChange":91.0244451859
+    },
+    {
+        "RegionName":"Richmond, VA",
+        "lat":37.5295,
+        "lng":-77.4756,
+        "rentalPercentChange":77.7370505619
+    },
+    {
+        "RegionName":"Riverside, CA",
+        "lat":33.9381,
+        "lng":-117.3949,
+        "rentalPercentChange":90.1618399564
+    },
+    {
+        "RegionName":"Rockford, IL",
+        "lat":42.2596,
+        "lng":-89.064,
+        "rentalPercentChange":84.6298515059
+    },
+    {
+        "RegionName":"Sacramento, CA",
+        "lat":38.5677,
+        "lng":-121.4685,
+        "rentalPercentChange":82.1117875316
+    },
+    {
+        "RegionName":"Salem, OR",
+        "lat":44.9233,
+        "lng":-123.0244,
+        "rentalPercentChange":109.1027898784
+    },
+    {
+        "RegionName":"Salinas, CA",
+        "lat":36.6883,
+        "lng":-121.6317,
+        "rentalPercentChange":75.1721329495
+    },
+    {
+        "RegionName":"Salt Lake City, UT",
+        "lat":40.7776,
+        "lng":-111.9311,
+        "rentalPercentChange":81.100506181
+    },
+    {
+        "RegionName":"San Antonio, TX",
+        "lat":29.4632,
+        "lng":-98.5238,
+        "rentalPercentChange":54.9178691584
+    },
+    {
+        "RegionName":"San Diego, CA",
+        "lat":32.8313,
+        "lng":-117.1222,
+        "rentalPercentChange":84.8315311851
+    },
+    {
+        "RegionName":"San Francisco, CA",
+        "lat":37.7558,
+        "lng":-122.4449,
+        "rentalPercentChange":48.3537923147
+    },
+    {
+        "RegionName":"San Luis Obispo, CA",
+        "lat":35.2669,
+        "lng":-120.669,
+        "rentalPercentChange":81.9009605722
+    },
+    {
+        "RegionName":"Santa Rosa, CA",
+        "lat":38.4458,
+        "lng":-122.7067,
+        "rentalPercentChange":60.6262302343
+    },
+    {
+        "RegionName":"Savannah, GA",
+        "lat":32.0286,
+        "lng":-81.1821,
+        "rentalPercentChange":97.6941253856
+    },
+    {
+        "RegionName":"Seattle, WA",
+        "lat":47.6211,
+        "lng":-122.3244,
+        "rentalPercentChange":78.7835643284
+    },
+    {
+        "RegionName":"Sebastian, FL",
+        "lat":27.7822,
+        "lng":-80.4819,
+        "rentalPercentChange":143.2091122604
+    },
+    {
+        "RegionName":"Shreveport, LA",
+        "lat":32.4653,
+        "lng":-93.7955,
+        "rentalPercentChange":32.7418425069
+    },
+    {
+        "RegionName":"South Bend, IN",
+        "lat":41.6767,
+        "lng":-86.2696,
+        "rentalPercentChange":90.3299057943
+    },
+    {
+        "RegionName":"Spokane, WA",
+        "lat":47.6671,
+        "lng":-117.433,
+        "rentalPercentChange":106.6655815795
+    },
+    {
+        "RegionName":"Springfield, MO",
+        "lat":37.1943,
+        "lng":-93.2916,
+        "rentalPercentChange":78.1982223591
+    },
+    {
+        "RegionName":"St. Louis, MO",
+        "lat":38.6359,
+        "lng":-90.2451,
+        "rentalPercentChange":60.9409365141
+    },
+    {
+        "RegionName":"Stockton, CA",
+        "lat":37.9765,
+        "lng":-121.3109,
+        "rentalPercentChange":89.8943360427
+    },
+    {
+        "RegionName":"Tallahassee, FL",
+        "lat":30.4551,
+        "lng":-84.2527,
+        "rentalPercentChange":72.2849020624
+    },
+    {
+        "RegionName":"Tampa, FL",
+        "lat":27.9945,
+        "lng":-82.4447,
+        "rentalPercentChange":99.5637966637
+    },
+    {
+        "RegionName":"Toledo, OH",
+        "lat":41.6638,
+        "lng":-83.5827,
+        "rentalPercentChange":67.8616240138
+    },
+    {
+        "RegionName":"Topeka, KS",
+        "lat":39.0346,
+        "lng":-95.6955,
+        "rentalPercentChange":65.3268705781
+    },
+    {
+        "RegionName":"Trenton, NJ",
+        "lat":40.2237,
+        "lng":-74.7641,
+        "rentalPercentChange":70.756644907
+    },
+    {
+        "RegionName":"Tucson, AZ",
+        "lat":32.1541,
+        "lng":-110.8787,
+        "rentalPercentChange":87.4145584977
+    },
+    {
+        "RegionName":"Tulsa, OK",
+        "lat":36.1283,
+        "lng":-95.9042,
+        "rentalPercentChange":56.9813344615
+    },
+    {
+        "RegionName":"Vallejo, CA",
+        "lat":38.1125,
+        "lng":-122.2342,
+        "rentalPercentChange":73.3606196364
+    },
+    {
+        "RegionName":"Virginia Beach, VA",
+        "lat":36.7335,
+        "lng":-76.0435,
+        "rentalPercentChange":62.3009899043
+    },
+    {
+        "RegionName":"Washington, DC",
+        "lat":38.9047,
+        "lng":-77.0163,
+        "rentalPercentChange":47.8419962759
+    },
+    {
+        "RegionName":"Wichita, KS",
+        "lat":37.6895,
+        "lng":-97.3443,
+        "rentalPercentChange":48.8491936903
+    },
+    {
+        "RegionName":"Wilmington, NC",
+        "lat":34.2099,
+        "lng":-77.8866,
+        "rentalPercentChange":95.308387183
+    },
+    {
+        "RegionName":"Winchester, VA",
+        "lat":39.1735,
+        "lng":-78.1746,
+        "rentalPercentChange":80.5339860832
+    },
+    {
+        "RegionName":"York, PA",
+        "lat":39.9651,
+        "lng":-76.7315,
+        "rentalPercentChange":64.7103907868
+    }
+]
