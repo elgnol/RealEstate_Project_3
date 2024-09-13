@@ -13,13 +13,14 @@ var homePercentMarkers = [];
 var rentalPercentMarkers = [];
 
 // Function to create markers
-function createMarkers(data, markersArray, color, scalingFactor) {
+function createMarkers(data, markersArray, color, scalingFactor, isPercentage = false) {
     data.forEach(function(item) {
 
         // Ensure that price, lat, and lng are valid numbers
         const price = parseFloat(item.price);
         const lat = parseFloat(item.lat);
         const lng = parseFloat(item.lng);
+        const regionName = item.RegionName;
         
         // Check if lat, lng, and price are valid numbers
         if (isNaN(price) || isNaN(lat) || isNaN(lng)) {
@@ -41,8 +42,16 @@ function createMarkers(data, markersArray, color, scalingFactor) {
             fillOpacity: 0.5
         });
 
-        // Add a popup with additional information
-        marker.bindPopup(`Price: $${price}`);
+        // If it's a percentage map, display the price as a percentage
+        var popupContent;
+        if (isPercentage) {
+            popupContent = `Region: ${regionName}<br>Percentage: ${price.toFixed(2)}%`;
+        } else {
+            popupContent = `Region: ${regionName}<br>Price: $${price.toFixed(2)}`;
+        }
+
+        // Add a popup with RegionName and price or percentage
+        marker.bindPopup(popupContent);
         
         // Store the marker in the array (but do not add to the map yet)
         markersArray.push(marker);
@@ -53,7 +62,8 @@ function createMarkers(data, markersArray, color, scalingFactor) {
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/rental_heat_df.json')
     .then(response => response.json())
     .then(data => {
-        createMarkers(data, rentalMarkers, 'blue', 200); // Create rental markers with a specific scaling factor
+        createMarkers(data, rentalMarkers, 'blue', 200); // No 'isPercentage' argument, default is false
+    
         // Call toggleMap to show default map (rental)
         toggleMap(); // Call this only after rental markers are loaded
     });
@@ -62,22 +72,23 @@ fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Ana
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/home_heat_df.json')
     .then(response => response.json())
     .then(data => {
-        createMarkers(data, homeMarkers, 'green', 36000); // Create home value markers with a different scaling factor
+        createMarkers(data, homeMarkers, 'green', 36000); // No 'isPercentage' argument, default is false
     });
+
 
 // Load home percents data
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/home_percents.json')
     .then(response => response.json())
     .then(data => {
-        createMarkers(data, homePercentMarkers, 'red', 7); // Create home percent markers with a different scaling factor
+        createMarkers(data, homePercentMarkers, 'red', 7, true); // 'true' indicates it's a percentage map
     });
 
 // Load rental percents data
 fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Analysis/rental_percents.json')
-.then(response => response.json())
-.then(data => {
-    createMarkers(data, rentalPercentMarkers, 'orange', 7); // Create rental percent markers with a different scaling factor
-});
+    .then(response => response.json())
+    .then(data => {
+        createMarkers(data, rentalPercentMarkers, 'orange', 7, true); // 'true' indicates it's a percentage map
+    });
 
 // Function to toggle maps
 function toggleMap() {
