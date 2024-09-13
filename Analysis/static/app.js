@@ -44,8 +44,7 @@ function createMarkers(data, markersArray, color, scalingFactor) {
         // Add a popup with additional information
         marker.bindPopup(`Price: $${price}`);
         
-        // Add marker to the map and store it in the array
-        marker.addTo(map);
+        // Store the marker in the array (but do not add to the map yet)
         markersArray.push(marker);
     });
 }
@@ -55,6 +54,8 @@ fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Ana
     .then(response => response.json())
     .then(data => {
         createMarkers(data, rentalMarkers, 'blue', 200); // Create rental markers with a specific scaling factor
+        // Call toggleMap to show default map (rental)
+        toggleMap(); // Call this only after rental markers are loaded
     });
 
 // Load home values data
@@ -80,7 +81,7 @@ fetch('https://raw.githubusercontent.com/elgnol/RealEstate_Project_3/tatyana/Ana
 
 // Function to toggle maps
 function toggleMap() {
-    var selectedValue = document.getElementById('mapSelector').value;
+    var selectedValue = document.getElementById('mapSelector').value || 'rental'; // Default to 'rental'
 
     // Clear all markers from the map
     rentalMarkers.forEach(marker => map.removeLayer(marker));
@@ -103,7 +104,10 @@ function toggleMap() {
 // Event listener for dropdown change
 document.getElementById('mapSelector').addEventListener('change', toggleMap);
 
-// Initial load: show rental prices by default
-toggleMap();
+// Initial load: show rental prices by default (now called after data is loaded)
+
+
+
+
 
 
