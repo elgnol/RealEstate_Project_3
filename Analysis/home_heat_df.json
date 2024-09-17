@@ -918,6 +918,12 @@
         "price":240829.9687643767
     },
     {
+        "RegionName":"Urban Honolulu, HI",
+        "lat":21.315603,
+        "lng":-157.858093,
+        "price":1064380.2840903818
+    },
+    {
         "RegionName":"Vallejo, CA",
         "lat":38.1125,
         "lng":-122.2342,
