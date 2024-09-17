@@ -1,15 +1,12 @@
-SAGDP9N Real GDP by state 1
-SAGDP9N Real GDP by state 1
-State or DC
 GeoFips,GeoName,2023
-00000,United States,22376906.0
-01000,Alabama,241753.1
-02000,Alaska,53006.3
-04000,Arizona,414273.3
-05000,Arkansas,140784.7
-06000,California,3233151.0
-08000,Colorado,428040.4
-09000,Connecticut,282478.5
+0,United States,22376906
+1000,Alabama,241753.1
+2000,Alaska,53006.3
+4000,Arizona,414273.3
+5000,Arkansas,140784.7
+6000,California,3233151
+8000,Colorado,428040.4
+9000,Connecticut,282478.5
 10000,Delaware,74262.8
 11000,District of Columbia,145493.3
 12000,Florida,1279118.8
@@ -53,16 +50,12 @@ GeoFips,GeoName,2023
 53000,Washington,672125.3
 54000,West Virginia,80135.5
 55000,Wisconsin,336460.6
-56000,Wyoming,39322.0
+56000,Wyoming,39322
 91000,New England,1160814.1
 92000,Mideast,3862616.5
 93000,Great Lakes,2859299.7
-94000,Plains,1369260.0
+94000,Plains,1369260
 95000,Southeast,4883068.5
 96000,Southwest,2754851.3
 97000,Rocky Mountain,836705.7
 98000,Far West,4497211.4
-
-Legend/Footnotes
-"1. Real GDP is in millions of chained 2017 dollars. Industry detail is based on the 2017 North American Industry Classification System (NAICS). Calculations are performed on unrounded data. Chained (2017) dollar series are calculated as the product of the chain-type quantity index and the 2017 current-dollar value of the corresponding series, divided by 100. Because the formula for the chain-type quantity indexes uses weights of more than one period, the corresponding chained-dollar estimates are usually not additive. The difference between the United States and sum-of-states reflects federal military and civilian activity located overseas, as well as the differences in source data used to estimate GDP by industry and the expenditures measure of real GDP."
-"  Last updated: May 23, 2024-- revised statistics for 1997-2016."
