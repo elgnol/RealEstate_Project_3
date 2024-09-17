@@ -102,6 +102,12 @@
         "price":72.9800607854
     },
     {
+        "RegionName":"Boise City, ID",
+        "lat":43.618881,
+        "lng":-116.215019,
+        "price":156.5268297709
+    },
+    {
         "RegionName":"Boston, MA",
         "lat":42.3188,
         "lng":-71.0852,
