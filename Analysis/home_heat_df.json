@@ -1,0 +1,968 @@
+[
+    {
+        "RegionName":"Abilene, TX",
+        "lat":32.4543,
+        "lng":-99.7384,
+        "price":194900.8219828274
+    },
+    {
+        "RegionName":"Akron, OH",
+        "lat":41.0798,
+        "lng":-81.5219,
+        "price":223822.7712571266
+    },
+    {
+        "RegionName":"Albany, NY",
+        "lat":42.6664,
+        "lng":-73.7987,
+        "price":338039.246133223
+    },
+    {
+        "RegionName":"Albuquerque, NM",
+        "lat":35.1054,
+        "lng":-106.6465,
+        "price":340734.1710756319
+    },
+    {
+        "RegionName":"Allentown, PA",
+        "lat":40.5961,
+        "lng":-75.4756,
+        "price":337281.0043793092
+    },
+    {
+        "RegionName":"Ann Arbor, MI",
+        "lat":42.2759,
+        "lng":-83.731,
+        "price":424918.1639953977
+    },
+    {
+        "RegionName":"Asheville, NC",
+        "lat":35.5707,
+        "lng":-82.5537,
+        "price":440741.8209403889
+    },
+    {
+        "RegionName":"Athens, GA",
+        "lat":33.9508,
+        "lng":-83.3689,
+        "price":361697.9730857625
+    },
+    {
+        "RegionName":"Atlanta, GA",
+        "lat":33.7628,
+        "lng":-84.422,
+        "price":393707.4035391469
+    },
+    {
+        "RegionName":"Atlantic City, NJ",
+        "lat":39.3797,
+        "lng":-74.4527,
+        "price":387644.1831886569
+    },
+    {
+        "RegionName":"Augusta, GA",
+        "lat":33.3645,
+        "lng":-82.0708,
+        "price":236032.3808439689
+    },
+    {
+        "RegionName":"Austin, TX",
+        "lat":30.3005,
+        "lng":-97.7522,
+        "price":466742.787384943
+    },
+    {
+        "RegionName":"Bakersfield, CA",
+        "lat":35.3529,
+        "lng":-119.0359,
+        "price":358948.7508724648
+    },
+    {
+        "RegionName":"Baltimore, MD",
+        "lat":39.3051,
+        "lng":-76.6144,
+        "price":397041.960499155
+    },
+    {
+        "RegionName":"Baton Rouge, LA",
+        "lat":30.442,
+        "lng":-91.1311,
+        "price":244628.2431979315
+    },
+    {
+        "RegionName":"Beaumont, TX",
+        "lat":30.0849,
+        "lng":-94.1451,
+        "price":168696.6347068888
+    },
+    {
+        "RegionName":"Birmingham, AL",
+        "lat":33.5279,
+        "lng":-86.7971,
+        "price":256935.5629380859
+    },
+    {
+        "RegionName":"Boston, MA",
+        "lat":42.3188,
+        "lng":-71.0852,
+        "price":743964.6678201472
+    },
+    {
+        "RegionName":"Boulder, CO",
+        "lat":40.0248,
+        "lng":-105.2524,
+        "price":803499.2584088035
+    },
+    {
+        "RegionName":"Bremerton, WA",
+        "lat":47.5436,
+        "lng":-122.7121,
+        "price":568365.3135158269
+    },
+    {
+        "RegionName":"Bridgeport, CT",
+        "lat":41.1918,
+        "lng":-73.1954,
+        "price":715335.2118216478
+    },
+    {
+        "RegionName":"Buffalo, NY",
+        "lat":42.9018,
+        "lng":-78.8487,
+        "price":267566.9379639732
+    },
+    {
+        "RegionName":"Cape Coral, FL",
+        "lat":26.6443,
+        "lng":-81.9957,
+        "price":405281.5856811961
+    },
+    {
+        "RegionName":"Champaign, IL",
+        "lat":40.1142,
+        "lng":-88.2737,
+        "price":215819.8094701298
+    },
+    {
+        "RegionName":"Charleston, SC",
+        "lat":32.8168,
+        "lng":-79.9687,
+        "price":443054.7666781552
+    },
+    {
+        "RegionName":"Charlotte, NC",
+        "lat":35.2083,
+        "lng":-80.8303,
+        "price":389528.2597794424
+    },
+    {
+        "RegionName":"Charlottesville, VA",
+        "lat":38.0375,
+        "lng":-78.4855,
+        "price":461165.9632030539
+    },
+    {
+        "RegionName":"Chattanooga, TN",
+        "lat":35.066,
+        "lng":-85.2481,
+        "price":309833.7144089791
+    },
+    {
+        "RegionName":"Cheyenne, WY",
+        "lat":41.135,
+        "lng":-104.7902,
+        "price":373443.9884015154
+    },
+    {
+        "RegionName":"Chicago, IL",
+        "lat":41.8375,
+        "lng":-87.6866,
+        "price":342936.6292213717
+    },
+    {
+        "RegionName":"Cincinnati, OH",
+        "lat":39.1413,
+        "lng":-84.506,
+        "price":298534.5500914571
+    },
+    {
+        "RegionName":"Clarksville, TN",
+        "lat":36.5692,
+        "lng":-87.3413,
+        "price":278914.1950639714
+    },
+    {
+        "RegionName":"Cleveland, OH",
+        "lat":41.4764,
+        "lng":-81.6805,
+        "price":240337.8654844652
+    },
+    {
+        "RegionName":"College Station, TX",
+        "lat":30.5852,
+        "lng":-96.2959,
+        "price":305513.851151709
+    },
+    {
+        "RegionName":"Colorado Springs, CO",
+        "lat":38.8674,
+        "lng":-104.7605,
+        "price":471099.616914586
+    },
+    {
+        "RegionName":"Columbia, MO",
+        "lat":38.9472,
+        "lng":-92.3268,
+        "price":305017.7383372346
+    },
+    {
+        "RegionName":"Columbia, SC",
+        "lat":34.0378,
+        "lng":-80.9036,
+        "price":254862.8273852704
+    },
+    {
+        "RegionName":"Columbus, GA",
+        "lat":32.51,
+        "lng":-84.8771,
+        "price":191038.960704117
+    },
+    {
+        "RegionName":"Columbus, OH",
+        "lat":39.9862,
+        "lng":-82.9855,
+        "price":336902.018108705
+    },
+    {
+        "RegionName":"Corpus Christi, TX",
+        "lat":27.7254,
+        "lng":-97.3767,
+        "price":219480.341362313
+    },
+    {
+        "RegionName":"Crestview, FL",
+        "lat":30.7477,
+        "lng":-86.5785,
+        "price":410776.1324707361
+    },
+    {
+        "RegionName":"Dallas, TX",
+        "lat":32.7935,
+        "lng":-96.7667,
+        "price":381295.8057425273
+    },
+    {
+        "RegionName":"Davenport, IA",
+        "lat":41.5565,
+        "lng":-90.6053,
+        "price":181182.7954270782
+    },
+    {
+        "RegionName":"Deltona, FL",
+        "lat":28.905,
+        "lng":-81.2137,
+        "price":347210.369580071
+    },
+    {
+        "RegionName":"Denver, CO",
+        "lat":39.762,
+        "lng":-104.8758,
+        "price":613523.6412332943
+    },
+    {
+        "RegionName":"Des Moines, IA",
+        "lat":41.5725,
+        "lng":-93.6105,
+        "price":295034.7967151097
+    },
+    {
+        "RegionName":"Detroit, MI",
+        "lat":42.3834,
+        "lng":-83.1024,
+        "price":257555.4939967679
+    },
+    {
+        "RegionName":"El Paso, TX",
+        "lat":31.8476,
+        "lng":-106.43,
+        "price":219839.7392309196
+    },
+    {
+        "RegionName":"Eugene, OR",
+        "lat":44.0564,
+        "lng":-123.1174,
+        "price":457519.2458898605
+    },
+    {
+        "RegionName":"Fayetteville, AR",
+        "lat":36.0714,
+        "lng":-94.1661,
+        "price":343269.7808934216
+    },
+    {
+        "RegionName":"Fayetteville, NC",
+        "lat":35.085,
+        "lng":-78.9772,
+        "price":248213.5006520707
+    },
+    {
+        "RegionName":"Fort Wayne, IN",
+        "lat":41.0888,
+        "lng":-85.1436,
+        "price":244490.0987706125
+    },
+    {
+        "RegionName":"Fresno, CA",
+        "lat":36.783,
+        "lng":-119.7939,
+        "price":405975.7826814335
+    },
+    {
+        "RegionName":"Gainesville, FL",
+        "lat":29.6804,
+        "lng":-82.3459,
+        "price":323483.5577340222
+    },
+    {
+        "RegionName":"Gainesville, GA",
+        "lat":34.2902,
+        "lng":-83.8294,
+        "price":391752.5119830235
+    },
+    {
+        "RegionName":"Grand Junction, CO",
+        "lat":39.0877,
+        "lng":-108.5673,
+        "price":417238.1430374646
+    },
+    {
+        "RegionName":"Grand Rapids, MI",
+        "lat":42.9619,
+        "lng":-85.6562,
+        "price":331604.0557694562
+    },
+    {
+        "RegionName":"Greensboro, NC",
+        "lat":36.0956,
+        "lng":-79.8271,
+        "price":263399.6245301957
+    },
+    {
+        "RegionName":"Greenville, NC",
+        "lat":35.5943,
+        "lng":-77.376,
+        "price":262417.5587725176
+    },
+    {
+        "RegionName":"Greenville, SC",
+        "lat":34.8354,
+        "lng":-82.3646,
+        "price":300079.7388156404
+    },
+    {
+        "RegionName":"Gulfport, MS",
+        "lat":30.4274,
+        "lng":-89.0704,
+        "price":212986.8157070744
+    },
+    {
+        "RegionName":"Hagerstown, MD",
+        "lat":39.6401,
+        "lng":-77.7217,
+        "price":309031.1182657304
+    },
+    {
+        "RegionName":"Harrisburg, PA",
+        "lat":40.2752,
+        "lng":-76.8843,
+        "price":288008.9215728315
+    },
+    {
+        "RegionName":"Hartford, CT",
+        "lat":41.7661,
+        "lng":-72.6834,
+        "price":390306.2842641841
+    },
+    {
+        "RegionName":"Hilton Head Island, SC",
+        "lat":32.1896,
+        "lng":-80.7499,
+        "price":538000.5670932229
+    },
+    {
+        "RegionName":"Houston, TX",
+        "lat":29.786,
+        "lng":-95.3885,
+        "price":315646.0275281005
+    },
+    {
+        "RegionName":"Huntsville, AL",
+        "lat":34.6981,
+        "lng":-86.6412,
+        "price":311351.5978318556
+    },
+    {
+        "RegionName":"Indianapolis, IN",
+        "lat":39.7771,
+        "lng":-86.1458,
+        "price":288044.1889372645
+    },
+    {
+        "RegionName":"Jacksonville, FL",
+        "lat":30.3322,
+        "lng":-81.6749,
+        "price":368886.2635279032
+    },
+    {
+        "RegionName":"Kalamazoo, MI",
+        "lat":42.2749,
+        "lng":-85.5882,
+        "price":266050.699856965
+    },
+    {
+        "RegionName":"Kansas City, MO",
+        "lat":39.1238,
+        "lng":-94.5541,
+        "price":310409.4875742511
+    },
+    {
+        "RegionName":"Killeen, TX",
+        "lat":31.0753,
+        "lng":-97.7297,
+        "price":257364.412584648
+    },
+    {
+        "RegionName":"Knoxville, TN",
+        "lat":35.9692,
+        "lng":-83.9496,
+        "price":349806.7898475758
+    },
+    {
+        "RegionName":"Lafayette, IN",
+        "lat":40.3991,
+        "lng":-86.8593,
+        "price":267637.3725173685
+    },
+    {
+        "RegionName":"Lakeland, FL",
+        "lat":28.0557,
+        "lng":-81.9545,
+        "price":320462.7052388131
+    },
+    {
+        "RegionName":"Lancaster, PA",
+        "lat":40.042,
+        "lng":-76.3012,
+        "price":353939.7791571973
+    },
+    {
+        "RegionName":"Lansing, MI",
+        "lat":42.7142,
+        "lng":-84.5601,
+        "price":233361.1512210707
+    },
+    {
+        "RegionName":"Las Cruces, NM",
+        "lat":32.3265,
+        "lng":-106.7893,
+        "price":288862.7681421239
+    },
+    {
+        "RegionName":"Las Vegas, NV",
+        "lat":36.2333,
+        "lng":-115.2654,
+        "price":452134.3745133478
+    },
+    {
+        "RegionName":"Lawton, OK",
+        "lat":34.6175,
+        "lng":-98.4202,
+        "price":138428.1808189242
+    },
+    {
+        "RegionName":"Lexington, KY",
+        "lat":38.0423,
+        "lng":-84.4587,
+        "price":300869.1714519376
+    },
+    {
+        "RegionName":"Little Rock, AR",
+        "lat":34.7256,
+        "lng":-92.3577,
+        "price":222316.4500533421
+    },
+    {
+        "RegionName":"Los Angeles, CA",
+        "lat":34.1141,
+        "lng":-118.4068,
+        "price":1010106.9787675968
+    },
+    {
+        "RegionName":"Louisville, KY",
+        "lat":38.1663,
+        "lng":-85.6485,
+        "price":265310.915919652
+    },
+    {
+        "RegionName":"Lubbock, TX",
+        "lat":33.5657,
+        "lng":-101.8879,
+        "price":208220.7003842377
+    },
+    {
+        "RegionName":"Lynchburg, VA",
+        "lat":37.4003,
+        "lng":-79.1909,
+        "price":277315.7905783321
+    },
+    {
+        "RegionName":"Madison, WI",
+        "lat":43.0822,
+        "lng":-89.393,
+        "price":440557.3380623669
+    },
+    {
+        "RegionName":"Manhattan, KS",
+        "lat":39.1886,
+        "lng":-96.6048,
+        "price":243802.2746283355
+    },
+    {
+        "RegionName":"Medford, OR",
+        "lat":42.3372,
+        "lng":-122.854,
+        "price":436357.8385952057
+    },
+    {
+        "RegionName":"Memphis, TN",
+        "lat":35.1087,
+        "lng":-89.9663,
+        "price":241856.2209148286
+    },
+    {
+        "RegionName":"Merced, CA",
+        "lat":37.3057,
+        "lng":-120.4779,
+        "price":419932.5478159287
+    },
+    {
+        "RegionName":"Miami, FL",
+        "lat":25.784,
+        "lng":-80.2101,
+        "price":578463.5413991436
+    },
+    {
+        "RegionName":"Milwaukee, WI",
+        "lat":43.0642,
+        "lng":-87.9675,
+        "price":364442.9397070135
+    },
+    {
+        "RegionName":"Minneapolis, MN",
+        "lat":44.9635,
+        "lng":-93.2678,
+        "price":388427.543094128
+    },
+    {
+        "RegionName":"Mobile, AL",
+        "lat":30.6782,
+        "lng":-88.1162,
+        "price":192745.1616917788
+    },
+    {
+        "RegionName":"Modesto, CA",
+        "lat":37.6375,
+        "lng":-121.0028,
+        "price":473949.9199242665
+    },
+    {
+        "RegionName":"Montgomery, AL",
+        "lat":32.3482,
+        "lng":-86.2668,
+        "price":195920.9286300695
+    },
+    {
+        "RegionName":"Myrtle Beach, SC",
+        "lat":33.7094,
+        "lng":-78.8844,
+        "price":368262.8094843608
+    },
+    {
+        "RegionName":"Naples, FL",
+        "lat":26.1504,
+        "lng":-81.7936,
+        "price":721326.06275413
+    },
+    {
+        "RegionName":"Nashville, TN",
+        "lat":36.1715,
+        "lng":-86.7842,
+        "price":451726.3794860053
+    },
+    {
+        "RegionName":"New Haven, CT",
+        "lat":41.3113,
+        "lng":-72.9246,
+        "price":400482.0916208732
+    },
+    {
+        "RegionName":"New Orleans, LA",
+        "lat":30.0687,
+        "lng":-89.9288,
+        "price":248310.3556330499
+    },
+    {
+        "RegionName":"New York, NY",
+        "lat":40.6943,
+        "lng":-73.9249,
+        "price":693248.1344435973
+    },
+    {
+        "RegionName":"North Port, FL",
+        "lat":27.0576,
+        "lng":-82.1977,
+        "price":467602.0573814614
+    },
+    {
+        "RegionName":"Norwich, CT",
+        "lat":41.5495,
+        "lng":-72.0882,
+        "price":401759.9981523055
+    },
+    {
+        "RegionName":"Oak Harbor, WA",
+        "lat":48.2964,
+        "lng":-122.6333,
+        "price":627113.4321437004
+    },
+    {
+        "RegionName":"Ocala, FL",
+        "lat":29.178,
+        "lng":-82.1511,
+        "price":281268.7750110182
+    },
+    {
+        "RegionName":"Ogden, UT",
+        "lat":41.2279,
+        "lng":-111.9682,
+        "price":502660.0451924822
+    },
+    {
+        "RegionName":"Oklahoma City, OK",
+        "lat":35.4676,
+        "lng":-97.5136,
+        "price":239009.5613335042
+    },
+    {
+        "RegionName":"Olympia, WA",
+        "lat":47.0417,
+        "lng":-122.8959,
+        "price":525345.6188771339
+    },
+    {
+        "RegionName":"Omaha, NE",
+        "lat":41.2627,
+        "lng":-96.0529,
+        "price":295303.8052685295
+    },
+    {
+        "RegionName":"Orlando, FL",
+        "lat":28.4773,
+        "lng":-81.337,
+        "price":418003.5752377132
+    },
+    {
+        "RegionName":"Oxnard, CA",
+        "lat":34.1964,
+        "lng":-119.1815,
+        "price":908287.5203484986
+    },
+    {
+        "RegionName":"Palm Bay, FL",
+        "lat":27.9631,
+        "lng":-80.6593,
+        "price":366419.0009254061
+    },
+    {
+        "RegionName":"Pensacola, FL",
+        "lat":30.4413,
+        "lng":-87.1911,
+        "price":304658.2710803112
+    },
+    {
+        "RegionName":"Philadelphia, PA",
+        "lat":40.0077,
+        "lng":-75.1339,
+        "price":374295.7408414301
+    },
+    {
+        "RegionName":"Phoenix, AZ",
+        "lat":33.5722,
+        "lng":-112.0892,
+        "price":468815.8281349439
+    },
+    {
+        "RegionName":"Pittsburgh, PA",
+        "lat":40.4397,
+        "lng":-79.9763,
+        "price":217833.6236714378
+    },
+    {
+        "RegionName":"Port St. Lucie, FL",
+        "lat":27.2796,
+        "lng":-80.3884,
+        "price":417196.1502633651
+    },
+    {
+        "RegionName":"Portland, OR",
+        "lat":45.5371,
+        "lng":-122.65,
+        "price":566553.4061302344
+    },
+    {
+        "RegionName":"Providence, RI",
+        "lat":41.823,
+        "lng":-71.4187,
+        "price":503382.7013191387
+    },
+    {
+        "RegionName":"Provo, UT",
+        "lat":40.2457,
+        "lng":-111.6457,
+        "price":547246.235501451
+    },
+    {
+        "RegionName":"Punta Gorda, FL",
+        "lat":26.8941,
+        "lng":-82.0513,
+        "price":359991.575966046
+    },
+    {
+        "RegionName":"Raleigh, NC",
+        "lat":35.8324,
+        "lng":-78.6429,
+        "price":451131.4007943739
+    },
+    {
+        "RegionName":"Reno, NV",
+        "lat":39.5497,
+        "lng":-119.8483,
+        "price":558972.3991006628
+    },
+    {
+        "RegionName":"Richmond, VA",
+        "lat":37.5295,
+        "lng":-77.4756,
+        "price":375410.1579208032
+    },
+    {
+        "RegionName":"Riverside, CA",
+        "lat":33.9381,
+        "lng":-117.3949,
+        "price":595602.9694304374
+    },
+    {
+        "RegionName":"Rockford, IL",
+        "lat":42.2596,
+        "lng":-89.064,
+        "price":198098.5479666515
+    },
+    {
+        "RegionName":"Sacramento, CA",
+        "lat":38.5677,
+        "lng":-121.4685,
+        "price":596135.1783552989
+    },
+    {
+        "RegionName":"Salem, OR",
+        "lat":44.9233,
+        "lng":-123.0244,
+        "price":448749.8843683519
+    },
+    {
+        "RegionName":"Salinas, CA",
+        "lat":36.6883,
+        "lng":-121.6317,
+        "price":858960.6814691359
+    },
+    {
+        "RegionName":"Salt Lake City, UT",
+        "lat":40.7776,
+        "lng":-111.9311,
+        "price":563079.293257329
+    },
+    {
+        "RegionName":"San Antonio, TX",
+        "lat":29.4632,
+        "lng":-98.5238,
+        "price":290293.2724477902
+    },
+    {
+        "RegionName":"San Diego, CA",
+        "lat":32.8313,
+        "lng":-117.1222,
+        "price":1013618.8629546752
+    },
+    {
+        "RegionName":"San Francisco, CA",
+        "lat":37.7558,
+        "lng":-122.4449,
+        "price":1266172.2497647081
+    },
+    {
+        "RegionName":"San Luis Obispo, CA",
+        "lat":35.2669,
+        "lng":-120.669,
+        "price":924373.78044907
+    },
+    {
+        "RegionName":"Santa Rosa, CA",
+        "lat":38.4458,
+        "lng":-122.7067,
+        "price":842035.6063426356
+    },
+    {
+        "RegionName":"Savannah, GA",
+        "lat":32.0286,
+        "lng":-81.1821,
+        "price":343509.7156583692
+    },
+    {
+        "RegionName":"Seattle, WA",
+        "lat":47.6211,
+        "lng":-122.3244,
+        "price":786460.7227021338
+    },
+    {
+        "RegionName":"Sebastian, FL",
+        "lat":27.7822,
+        "lng":-80.4819,
+        "price":390381.9464185058
+    },
+    {
+        "RegionName":"Shreveport, LA",
+        "lat":32.4653,
+        "lng":-93.7955,
+        "price":173048.3399606004
+    },
+    {
+        "RegionName":"South Bend, IN",
+        "lat":41.6767,
+        "lng":-86.2696,
+        "price":222191.4106734576
+    },
+    {
+        "RegionName":"Spokane, WA",
+        "lat":47.6671,
+        "lng":-117.433,
+        "price":421462.0030585763
+    },
+    {
+        "RegionName":"Springfield, MO",
+        "lat":37.1943,
+        "lng":-93.2916,
+        "price":259143.5041732691
+    },
+    {
+        "RegionName":"St. Louis, MO",
+        "lat":38.6359,
+        "lng":-90.2451,
+        "price":260006.4523368736
+    },
+    {
+        "RegionName":"Stockton, CA",
+        "lat":37.9765,
+        "lng":-121.3109,
+        "price":549991.6904090437
+    },
+    {
+        "RegionName":"Tallahassee, FL",
+        "lat":30.4551,
+        "lng":-84.2527,
+        "price":289899.3616468312
+    },
+    {
+        "RegionName":"Tampa, FL",
+        "lat":27.9945,
+        "lng":-82.4447,
+        "price":397289.3733593707
+    },
+    {
+        "RegionName":"Toledo, OH",
+        "lat":41.6638,
+        "lng":-83.5827,
+        "price":189695.523085098
+    },
+    {
+        "RegionName":"Topeka, KS",
+        "lat":39.0346,
+        "lng":-95.6955,
+        "price":209058.3074405338
+    },
+    {
+        "RegionName":"Trenton, NJ",
+        "lat":40.2237,
+        "lng":-74.7641,
+        "price":440020.6030350081
+    },
+    {
+        "RegionName":"Tucson, AZ",
+        "lat":32.1541,
+        "lng":-110.8787,
+        "price":362995.0249973313
+    },
+    {
+        "RegionName":"Tulsa, OK",
+        "lat":36.1283,
+        "lng":-95.9042,
+        "price":240829.9687643767
+    },
+    {
+        "RegionName":"Urban Honolulu, HI",
+        "lat":21.315603,
+        "lng":-157.858093,
+        "price":1064380.2840903818
+    },
+    {
+        "RegionName":"Vallejo, CA",
+        "lat":38.1125,
+        "lng":-122.2342,
+        "price":604155.9900923447
+    },
+    {
+        "RegionName":"Virginia Beach, VA",
+        "lat":36.7335,
+        "lng":-76.0435,
+        "price":359688.4865818165
+    },
+    {
+        "RegionName":"Washington, DC",
+        "lat":38.9047,
+        "lng":-77.0163,
+        "price":599792.5671085014
+    },
+    {
+        "RegionName":"Wichita, KS",
+        "lat":37.6895,
+        "lng":-97.3443,
+        "price":219134.5597424516
+    },
+    {
+        "RegionName":"Wilmington, NC",
+        "lat":34.2099,
+        "lng":-77.8866,
+        "price":437207.7060246862
+    },
+    {
+        "RegionName":"Winchester, VA",
+        "lat":39.1735,
+        "lng":-78.1746,
+        "price":368833.5633573618
+    },
+    {
+        "RegionName":"York, PA",
+        "lat":39.9651,
+        "lng":-76.7315,
+        "price":287591.1525864901
+    }
+]
