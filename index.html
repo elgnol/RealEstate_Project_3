@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing and Rental Prices</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+        }
+        .container { 
+            width: 80%; 
+            margin: auto; 
+        }
+        h1, h2 { 
+            text-align: center; 
+        }
+        h1 {
+            font-size: 28px; 
+            margin-bottom: 10px;
+        }
+        h2 { 
+            font-size: 18px; 
+            color: black; 
+            margin-bottom: 30px;
+        }
+        .chart-container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        .chart-container canvas {
+            width: 80% !important; /* Adjust width percentage as needed */
+            height: 420px !important; /* Set a more reasonable height */
+            margin-bottom: 20px;
+        }
+        .dropdown { 
+            margin: 10px 0; 
+        }
+    </style>
 </head>
 <body>
     <h1>Housing and Rental Prices Comparison</h1>
@@ -18,12 +54,13 @@
     <div id="housingPercentChange"></div>
     <div id="rentalPercentChange"></div>        
 
-    <!-- Canvas for Housing Prices Graph -->
-    <canvas id="housingChart" width="400" height="200"></canvas>
-    <br>
-
-    <!-- Canvas for Rental Prices Graph -->
-    <canvas id="rentalChart" width="400" height="200"></canvas>
+    <div class="chart-container">
+        <!-- Canvas for Housing Prices Graph -->
+        <canvas id="housingChart"></canvas>
+        
+        <!-- Canvas for Rental Prices Graph -->
+        <canvas id="rentalChart"></canvas>
+    </div>
 
     <script>
         // URLs for the JSON datasets
@@ -88,55 +125,59 @@
             housingPercentChangeElement.innerText = `Housing Price Change: ${housingPercentChange}%`;
             rentalPercentChangeElement.innerText = `Rental Price Change: ${rentalPercentChange}%`;
             
-            // Update the housing chart
-            createLineChart('housingChart', housingLabels, housingPrices, 'Housing Prices', 'rgba(75, 192, 192, 1)');
+            // Update the housing chart with a max value of 1.5 million
+            createLineChart('housingChart', housingLabels, housingPrices, 'Housing Prices', 'rgba(75, 192, 192, 1)', 100000, 1400000);
 
-            // Update the rental chart
-            createLineChart('rentalChart', rentalLabels, rentalPrices, 'Rental Prices', 'rgba(255, 99, 132, 1)');
+            // Update the rental chart with a max value of 5 thousand
+            createLineChart('rentalChart', rentalLabels, rentalPrices, 'Rental Prices', 'rgba(255, 99, 132, 1)', 1000, 5000);
         }
 
-    // Function to create/update a line chart
-    function createLineChart(canvasId, labels, data, label, color) {
-        const ctx = document.getElementById(canvasId).getContext('2d');
+// Function to create/update a line chart with specific y-axis limits
+function createLineChart(canvasId, labels, data, label, color, yMin, yMax) {
+    const ctx = document.getElementById(canvasId).getContext('2d');
     
-        // If a chart already exists, destroy it before creating a new one
-        if (window[canvasId] instanceof Chart) {
-            window[canvasId].destroy();
-        }
+    // If a chart already exists, destroy it before creating a new one
+    if (window[canvasId] instanceof Chart) {
+        window[canvasId].destroy();
+    }
 
-        // Create a new chart
-        window[canvasId] = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: label,
-                    data: data,
-                    fill: false,
-                    borderColor: color, // Use the color parameter here
-                    tension: 0.1
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Date'
-                        }
-                    },
-                    y: {
-                        title: {
+    // Create a new chart
+    window[canvasId] = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: label,
+                data: data,
+                fill: false,
+                borderColor: color, // Use the color parameter here
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Date'
+                    }
+                },
+                y: {
+                    title: {
                         display: true,
                         text: 'Price ($)'
-                        },
-                        beginAtZero: false
-                    }
+                    },
+                    beginAtZero: false,
+                    min: yMin,   // Use the provided min value for the y-axis
+                    max: yMax    // Use the provided max value for the y-axis
                 }
             }
-        });
-    }
+        }
+    });
+}
+
+
     // Load data when the page loads
     loadData();
     </script>
