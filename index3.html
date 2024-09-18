@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Housing and Rental Prices Percentage Change</title>
+    <title>Housing and Rental Prices Percentage Change with Linear Regression</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         canvas {
@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <h1>Housing and Rental Prices Percentage Change</h1>
+    <h1>Housing and Rental Prices Percentage Change with Linear Regression</h1>
 
     <!-- Dropdown to select city -->
     <label for="citySelect">Select City:</label>
@@ -94,12 +94,31 @@
                 return ((price - initialPrice) / initialPrice) * 100; // Percentage change formula
             });
 
-            // Update the combined chart with percentage change data
-            createCombinedChart('combinedChart', housingLabels, housingPercentChangeData, rentalPercentChangeData);
+            // Calculate linear regression for both datasets
+            const housingRegressionData = calculateLinearRegression(housingPercentChangeData);
+            const rentalRegressionData = calculateLinearRegression(rentalPercentChangeData);
+
+            // Update the combined chart with percentage change data and regression lines
+            createCombinedChart('combinedChart', housingLabels, housingPercentChangeData, rentalPercentChangeData, housingRegressionData, rentalRegressionData);
         }
 
-        // Function to create/update the combined line chart
-        function createCombinedChart(canvasId, labels, housingPercentChangeData, rentalPercentChangeData) {
+        // Function to calculate linear regression
+        function calculateLinearRegression(data) {
+            const n = data.length;
+            const sumX = data.reduce((acc, val, idx) => acc + idx, 0);
+            const sumY = data.reduce((acc, val) => acc + val, 0);
+            const sumXY = data.reduce((acc, val, idx) => acc + (idx * val), 0);
+            const sumXX = data.reduce((acc, val, idx) => acc + (idx * idx), 0);
+
+            const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+            const intercept = (sumY - slope * sumX) / n;
+
+            // Generate the regression line data points
+            return data.map((_, idx) => slope * idx + intercept);
+        }
+
+        // Function to create/update the combined line chart with regression lines
+        function createCombinedChart(canvasId, labels, housingPercentChangeData, rentalPercentChangeData, housingRegressionData, rentalRegressionData) {
             const ctx = document.getElementById(canvasId).getContext('2d');
         
             // If a chart already exists, destroy it before creating a new one
@@ -107,7 +126,7 @@
                 window[canvasId].destroy();
             }
 
-            // Create a new combined chart showing percentage changes
+            // Create a new combined chart showing percentage changes and regression lines
             window[canvasId] = new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -126,6 +145,22 @@
                             fill: false,
                             borderColor: 'rgba(255, 99, 132, 1)',
                             tension: 0.1
+                        },
+                        {
+                            label: 'Housing Regression Line',
+                            data: housingRegressionData,
+                            fill: false,
+                            borderColor: 'rgba(75, 192, 192, 0.5)',
+                            borderDash: [5, 5], // Dashed line for regression
+                            tension: 0
+                        },
+                        {
+                            label: 'Rental Regression Line',
+                            data: rentalRegressionData,
+                            fill: false,
+                            borderColor: 'rgba(255, 99, 132, 0.5)',
+                            borderDash: [5, 5], // Dashed line for regression
+                            tension: 0
                         }
                     ]
                 },
