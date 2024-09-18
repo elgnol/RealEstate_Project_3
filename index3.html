@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Housing and Rental Prices Percentage Change with Linear Regression</title>
+    <title>Housing and Rental Prices</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        canvas {
-            width: 75% !important; /* Set canvas width to 75% of the screen */
-            height: auto !important; /* Auto-adjust height to maintain aspect ratio */
+        body { 
+            font-family: Arial, sans-serif; 
+        }
+        .container { 
+            width: 80%; 
+            margin: auto; 
+        }
+        h1, h2 { 
+            text-align: center; 
+        }
+        h1 {
+            font-size: 28px; 
+            margin-bottom: 10px;
+        }
+        h2 { 
+            font-size: 18px; 
+            color: black; 
+            margin-bottom: 30px;
+        }
+        .chart-container { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        .chart-container canvas {
+            width: 80% !important; /* Adjust width percentage as needed */
+            height: 420px !important; /* Set a more reasonable height */
+            margin-bottom: 20px;
+        }
+        .dropdown { 
+            margin: 10px 0; 
         }
     </style>
 </head>
 <body>
-    <h1>Housing and Rental Prices Percentage Change with Linear Regression</h1>
+    <h1>Housing and Rental Prices Comparison</h1>
 
     <!-- Dropdown to select city -->
     <label for="citySelect">Select City:</label>
@@ -24,8 +54,13 @@
     <div id="housingPercentChange"></div>
     <div id="rentalPercentChange"></div>        
 
-    <!-- Single Canvas for Combined Graph -->
-    <canvas id="combinedChart"></canvas>
+    <div class="chart-container">
+        <!-- Canvas for Housing Prices Graph -->
+        <canvas id="housingChart"></canvas>
+        
+        <!-- Canvas for Rental Prices Graph -->
+        <canvas id="rentalChart"></canvas>
+    </div>
 
     <script>
         // URLs for the JSON datasets
@@ -82,111 +117,69 @@
             const rentalLabels = Object.keys(selectedRentalRow).filter(key => key.match(/^\d{4}-\d{2}-\d{2}$/));
             const rentalPrices = rentalLabels.map(date => parseFloat(selectedRentalRow[date]));
 
-            // Calculate the percentage change for housing prices
-            const housingPercentChangeData = housingPrices.map((price, index) => {
-                const initialPrice = housingPrices[0]; // First price in the series
-                return ((price - initialPrice) / initialPrice) * 100; // Percentage change formula
-            });
+            // Access the percent change from the last column of each dataset
+            const housingPercentChange = selectedHousingRow[Object.keys(selectedHousingRow).pop()]; // Last column
+            const rentalPercentChange = selectedRentalRow[Object.keys(selectedRentalRow).pop()]; // Last column
 
-            // Calculate the percentage change for rental prices
-            const rentalPercentChangeData = rentalPrices.map((price, index) => {
-                const initialPrice = rentalPrices[0]; // First price in the series
-                return ((price - initialPrice) / initialPrice) * 100; // Percentage change formula
-            });
+            // Update the percent change display
+            housingPercentChangeElement.innerText = `Housing Price Change: ${housingPercentChange}%`;
+            rentalPercentChangeElement.innerText = `Rental Price Change: ${rentalPercentChange}%`;
+            
+            // Update the housing chart with a max value of 1.5 million
+            createLineChart('housingChart', housingLabels, housingPrices, 'Housing Prices', 'rgba(75, 192, 192, 1)', 100000, 1400000);
 
-            // Calculate linear regression for both datasets
-            const housingRegressionData = calculateLinearRegression(housingPercentChangeData);
-            const rentalRegressionData = calculateLinearRegression(rentalPercentChangeData);
-
-            // Update the combined chart with percentage change data and regression lines
-            createCombinedChart('combinedChart', housingLabels, housingPercentChangeData, rentalPercentChangeData, housingRegressionData, rentalRegressionData);
+            // Update the rental chart with a max value of 5 thousand
+            createLineChart('rentalChart', rentalLabels, rentalPrices, 'Rental Prices', 'rgba(255, 99, 132, 1)', 1000, 5000);
         }
 
-        // Function to calculate linear regression
-        function calculateLinearRegression(data) {
-            const n = data.length;
-            const sumX = data.reduce((acc, val, idx) => acc + idx, 0);
-            const sumY = data.reduce((acc, val) => acc + val, 0);
-            const sumXY = data.reduce((acc, val, idx) => acc + (idx * val), 0);
-            const sumXX = data.reduce((acc, val, idx) => acc + (idx * idx), 0);
+// Function to create/update a line chart with specific y-axis limits
+function createLineChart(canvasId, labels, data, label, color, yMin, yMax) {
+    const ctx = document.getElementById(canvasId).getContext('2d');
+    
+    // If a chart already exists, destroy it before creating a new one
+    if (window[canvasId] instanceof Chart) {
+        window[canvasId].destroy();
+    }
 
-            const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
-            const intercept = (sumY - slope * sumX) / n;
-
-            // Generate the regression line data points
-            return data.map((_, idx) => slope * idx + intercept);
-        }
-
-        // Function to create/update the combined line chart with regression lines
-        function createCombinedChart(canvasId, labels, housingPercentChangeData, rentalPercentChangeData, housingRegressionData, rentalRegressionData) {
-            const ctx = document.getElementById(canvasId).getContext('2d');
-        
-            // If a chart already exists, destroy it before creating a new one
-            if (window[canvasId] instanceof Chart) {
-                window[canvasId].destroy();
-            }
-
-            // Create a new combined chart showing percentage changes and regression lines
-            window[canvasId] = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'Housing Price Change (%)',
-                            data: housingPercentChangeData,
-                            fill: false,
-                            borderColor: 'rgba(75, 192, 192, 1)',
-                            tension: 0.1
-                        },
-                        {
-                            label: 'Rental Price Change (%)',
-                            data: rentalPercentChangeData,
-                            fill: false,
-                            borderColor: 'rgba(255, 99, 132, 1)',
-                            tension: 0.1
-                        },
-                        {
-                            label: 'Housing Regression Line',
-                            data: housingRegressionData,
-                            fill: false,
-                            borderColor: 'rgba(75, 192, 192, 0.5)',
-                            borderDash: [5, 5], // Dashed line for regression
-                            tension: 0
-                        },
-                        {
-                            label: 'Rental Regression Line',
-                            data: rentalRegressionData,
-                            fill: false,
-                            borderColor: 'rgba(255, 99, 132, 0.5)',
-                            borderDash: [5, 5], // Dashed line for regression
-                            tension: 0
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Date'
-                            }
-                        },
-                        y: {
-                            title: {
-                                display: true,
-                                text: 'Percentage Change (%)'
-                            },
-                            beginAtZero: false
-                        }
+    // Create a new chart
+    window[canvasId] = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: label,
+                data: data,
+                fill: false,
+                borderColor: color, // Use the color parameter here
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Date'
                     }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Price ($)'
+                    },
+                    beginAtZero: false,
+                    min: yMin,   // Use the provided min value for the y-axis
+                    max: yMax    // Use the provided max value for the y-axis
                 }
-            });
+            }
         }
+    });
+}
 
-        // Load data when the page loads
-        loadData();
+
+    // Load data when the page loads
+    loadData();
     </script>
 </body>
 </html>
