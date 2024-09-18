@@ -94,6 +94,14 @@
                 return ((price - initialPrice) / initialPrice) * 100; // Percentage change formula
             });
 
+            // Access the percent change from the last column of each dataset
+            const housingPercentChange = selectedHousingRow[Object.keys(selectedHousingRow).pop()]; // Last column
+            const rentalPercentChange = selectedRentalRow[Object.keys(selectedRentalRow).pop()]; // Last column
+            
+            // Update the percent change display
+            housingPercentChangeElement.innerText = `Housing Price Change: ${housingPercentChange}%`;
+            rentalPercentChangeElement.innerText = `Rental Price Change: ${rentalPercentChange}%`;
+
             // Calculate linear regression for both datasets
             const housingRegressionData = calculateLinearRegression(housingPercentChangeData);
             const rentalRegressionData = calculateLinearRegression(rentalPercentChangeData);
