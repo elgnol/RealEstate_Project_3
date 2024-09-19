@@ -20,43 +20,42 @@ rental_data = load_json('us_rental_data_2018_2022.json')
 sales_data = load_json('us_home_sales_data_2018_2022.json')
 value_data = load_json('us_home_value_data_2018_2022.json')
 
-# Function to wrap data with appropriate key
+# wrap data with appropriate key
 def wrap_data_with_key(data, key_name):
     wrapped_data = {}
 
     # If the data is a list, iterate through it
     if isinstance(data, list):
         for item in data:
-            # Iterate through each key-value pair in the dictionary
             for date, value in item.items():
-                # Only process keys that are dates (skip RegionID, SizeRank, etc.)
-                if isinstance(date, str) and date.count('-') == 2:  # Checking for date format (e.g., "2020-01-01")
+                # Only process dates and check date format
+                if isinstance(date, str) and date.count('-') == 2:  
                     wrapped_data[date] = {key_name: value}
     elif isinstance(data, dict):
-        # Handle the case if the data is directly a dictionary
         for date, value in data.items():
             wrapped_data[date] = {key_name: value}
 
     return wrapped_data
-# Route for the homepage
+# Homepage Route 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# Route to get the data
+# Route for getting the data
 @app.route('/get_data/<string:dataset>')
 def get_data(dataset):
-    # Print the type of data to debug
+    # Need to debug having issues with charts
+    # Print the type of data 
     if dataset == 'rental':
-        print(type(rental_data))  # Check the type of rental_data
+        print(type(rental_data)) 
         print(rental_data[0])
         return jsonify(wrap_data_with_key(rental_data, 'Rentals'))
     elif dataset == 'sales':
-        print(type(sales_data))  # Check the type of sales_data
+        print(type(sales_data))  
         print(sales_data[0])
         return jsonify(wrap_data_with_key(sales_data, 'Sales'))
     elif dataset == 'home_value':
-        print(type(value_data))  # Check the type of home_value data
+        print(type(value_data))  
         print(value_data[0]) 
         return jsonify(wrap_data_with_key(value_data, 'Home Value'))
     elif dataset == 'average_mortgage':
