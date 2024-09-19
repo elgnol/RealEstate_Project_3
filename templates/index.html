@@ -107,18 +107,11 @@
         function updateChart2() {
             const dataset1 = document.getElementById('dataset1').value;
 
-            const datasetMapping = {
-                rental: 'us_rental_data_2018_2022',
-                sales: 'us_home_sales_data_2018_2022',
-                home_value: 'us_home_value_data_2018_2022'
-            };
-
-            fetchData(datasetMapping[dataset1], (data) => {
+            fetchData(dataset1, (data) => {
                 console.log("Received data:", data);
 
                 const labels = Object.keys(data);
                 const values = Object.values(data).map(d => d.Rentals || d.Sales || d['Home Value']);
-
 
                 if (chart2) chart2.destroy();
 
@@ -148,14 +141,16 @@
                         }
                     }
                 });
-            }).catch(error => console.error('Error fetching or processing data:', error));
+            });
         }
 
-        // Set default values and load the charts on page load
-        document.getElementById('dataset1').value = 'rental';
-        document.getElementById('dataset2').value = 'average_mortgage';
-        updateChart1();
-        updateChart2();
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('dataset1').value = 'rental';
+            document.getElementById('dataset2').value = 'average_mortgage';
+            updateChart1();
+            updateChart2();
+        });
+
     </script>
 </body>
 </html>
