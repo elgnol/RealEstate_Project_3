@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heat Map Visualization</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <select id="mapSelector">
+        <option value="rental">Rental Prices</option>
+        <option value="home">Home Values</option>
+        <option value="home percents">Home Percentages</option>
+        <option value="rental percents">Rental Percentages</option>
+    </select>
+    <div id="map" style="height: 600px;"></div>
+    <script src="static/app.js"></script>
+</body>
+</html>

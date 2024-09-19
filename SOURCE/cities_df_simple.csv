@@ -1,0 +1,163 @@
+city,state_id,lat,lng,RegionName,population,state_name
+New York,NY,40.6943,-73.9249,"New York, NY",18908608,New York
+Los Angeles,CA,34.1141,-118.4068,"Los Angeles, CA",11922389,California
+Chicago,IL,41.8375,-87.6866,"Chicago, IL",8497759,Illinois
+Miami,FL,25.784,-80.2101,"Miami, FL",6080145,Florida
+Houston,TX,29.786,-95.3885,"Houston, TX",5970127,Texas
+Dallas,TX,32.7935,-96.7667,"Dallas, TX",5830932,Texas
+Philadelphia,PA,40.0077,-75.1339,"Philadelphia, PA",5683533,Pennsylvania
+Atlanta,GA,33.7628,-84.422,"Atlanta, GA",5180179,Georgia
+Washington,DC,38.9047,-77.0163,"Washington, DC",5116378,District of Columbia
+Boston,MA,42.3188,-71.0852,"Boston, MA",4328315,Massachusetts
+Phoenix,AZ,33.5722,-112.0892,"Phoenix, AZ",4064275,Arizona
+Detroit,MI,42.3834,-83.1024,"Detroit, MI",3725908,Michigan
+Seattle,WA,47.6211,-122.3244,"Seattle, WA",3561397,Washington
+San Francisco,CA,37.7558,-122.4449,"San Francisco, CA",3364979,California
+San Diego,CA,32.8313,-117.1222,"San Diego, CA",3046560,California
+Minneapolis,MN,44.9635,-93.2678,"Minneapolis, MN",2892569,Minnesota
+Tampa,FL,27.9945,-82.4447,"Tampa, FL",2861173,Florida
+Denver,CO,39.762,-104.8758,"Denver, CO",2687458,Colorado
+Riverside,CA,33.9381,-117.3949,"Riverside, CA",2332836,California
+Las Vegas,NV,36.2333,-115.2654,"Las Vegas, NV",2248047,Nevada
+Baltimore,MD,39.3051,-76.6144,"Baltimore, MD",2196524,Maryland
+St. Louis,MO,38.6359,-90.2451,"St. Louis, MO",2130881,Missouri
+Portland,OR,45.5371,-122.65,"Portland, OR",2095808,Oregon
+San Antonio,TX,29.4632,-98.5238,"San Antonio, TX",2058444,Texas
+Sacramento,CA,38.5677,-121.4685,"Sacramento, CA",1957738,California
+Austin,TX,30.3005,-97.7522,"Austin, TX",1905945,Texas
+Orlando,FL,28.4773,-81.337,"Orlando, FL",1882705,Florida
+Pittsburgh,PA,40.4397,-79.9763,"Pittsburgh, PA",1749091,Pennsylvania
+Indianapolis,IN,39.7771,-86.1458,"Indianapolis, IN",1729849,Indiana
+Cincinnati,OH,39.1413,-84.506,"Cincinnati, OH",1692702,Ohio
+Kansas City,MO,39.1238,-94.5541,"Kansas City, MO",1689556,Missouri
+Cleveland,OH,41.4764,-81.6805,"Cleveland, OH",1680247,Ohio
+Columbus,OH,39.9862,-82.9855,"Columbus, OH",1572546,Ohio
+Virginia Beach,VA,36.7335,-76.0435,"Virginia Beach, VA",1443020,Virginia
+Charlotte,NC,35.2083,-80.8303,"Charlotte, NC",1427444,North Carolina
+Milwaukee,WI,43.0642,-87.9675,"Milwaukee, WI",1290940,Wisconsin
+Providence,RI,41.823,-71.4187,"Providence, RI",1290271,Rhode Island
+Jacksonville,FL,30.3322,-81.6749,"Jacksonville, FL",1288298,Florida
+Nashville,TN,36.1715,-86.7842,"Nashville, TN",1177657,Tennessee
+Salt Lake City,UT,40.7776,-111.9311,"Salt Lake City, UT",1173879,Utah
+Raleigh,NC,35.8324,-78.6429,"Raleigh, NC",1163152,North Carolina
+Richmond,VA,37.5295,-77.4756,"Richmond, VA",1073223,Virginia
+Memphis,TN,35.1087,-89.9663,"Memphis, TN",1037998,Tennessee
+Oklahoma City,OK,35.4676,-97.5136,"Oklahoma City, OK",998806,Oklahoma
+Hartford,CT,41.7661,-72.6834,"Hartford, CT",974684,Connecticut
+Louisville,KY,38.1663,-85.6485,"Louisville, KY",963812,Kentucky
+Buffalo,NY,42.9018,-78.8487,"Buffalo, NY",944589,New York
+New Orleans,LA,30.0687,-89.9288,"New Orleans, LA",932759,Louisiana
+Bridgeport,CT,41.1918,-73.1954,"Bridgeport, CT",908251,Connecticut
+Tucson,AZ,32.1541,-110.8787,"Tucson, AZ",878320,Arizona
+El Paso,TX,31.8476,-106.43,"El Paso, TX",865270,Texas
+Omaha,NE,41.2627,-96.0529,"Omaha, NE",821345,Nebraska
+Birmingham,AL,33.5279,-86.7971,"Birmingham, AL",782111,Alabama
+Albuquerque,NM,35.1054,-106.6465,"Albuquerque, NM",769986,New Mexico
+Tulsa,OK,36.1283,-95.9042,"Tulsa, OK",731743,Oklahoma
+Fresno,CA,36.783,-119.7939,"Fresno, CA",725276,California
+Charleston,SC,32.8168,-79.9687,"Charleston, SC",706884,South Carolina
+Cape Coral,FL,26.6443,-81.9957,"Cape Coral, FL",654405,Florida
+Colorado Springs,CO,38.8674,-104.7605,"Colorado Springs, CO",638194,Colorado
+Baton Rouge,LA,30.442,-91.1311,"Baton Rouge, LA",635671,Louisiana
+Allentown,PA,40.5961,-75.4756,"Allentown, PA",627863,Pennsylvania
+Ogden,UT,41.2279,-111.9682,"Ogden, UT",622918,Utah
+Provo,UT,40.2457,-111.6457,"Provo, UT",619218,Utah
+Knoxville,TN,35.9692,-83.9496,"Knoxville, TN",615829,Tennessee
+Grand Rapids,MI,42.9619,-85.6562,"Grand Rapids, MI",609023,Michigan
+Columbia,SC,34.0378,-80.9036,"Columbia, SC",604065,South Carolina
+Albany,NY,42.6664,-73.7987,"Albany, NY",590694,New York
+Bakersfield,CA,35.3529,-119.0359,"Bakersfield, CA",571992,California
+New Haven,CT,41.3113,-72.9246,"New Haven, CT",565572,Connecticut
+Des Moines,IA,41.5725,-93.6105,"Des Moines, IA",548926,Iowa
+Akron,OH,41.0798,-81.5219,"Akron, OH",541945,Ohio
+Palm Bay,FL,27.9631,-80.6593,"Palm Bay, FL",534348,Florida
+Wichita,KS,37.6895,-97.3443,"Wichita, KS",509003,Kansas
+Harrisburg,PA,40.2752,-76.8843,"Harrisburg, PA",498329,Pennsylvania
+Toledo,OH,41.6638,-83.5827,"Toledo, OH",493302,Ohio
+Port St. Lucie,FL,27.2796,-80.3884,"Port St. Lucie, FL",462047,Florida
+Little Rock,AR,34.7256,-92.3577,"Little Rock, AR",459409,Arkansas
+Reno,NV,39.5497,-119.8483,"Reno, NV",457702,Nevada
+Spokane,WA,47.6671,-117.433,"Spokane, WA",456219,Washington
+Madison,WI,43.0822,-89.393,"Madison, WI",451652,Wisconsin
+Augusta,GA,33.3645,-82.0708,"Augusta, GA",437257,Georgia
+Stockton,CA,37.9765,-121.3109,"Stockton, CA",413637,California
+Chattanooga,TN,35.066,-85.2481,"Chattanooga, TN",406849,Tennessee
+Lancaster,PA,40.042,-76.3012,"Lancaster, PA",402476,Pennsylvania
+Greenville,SC,34.8354,-82.3646,"Greenville, SC",401443,South Carolina
+Pensacola,FL,30.4413,-87.1911,"Pensacola, FL",398813,Florida
+Fayetteville,AR,36.0714,-94.1661,"Fayetteville, AR",394650,Arkansas
+Oxnard,CA,34.1964,-119.1815,"Oxnard, CA",369962,California
+Trenton,NJ,40.2237,-74.7641,"Trenton, NJ",362179,New Jersey
+Modesto,CA,37.6375,-121.0028,"Modesto, CA",354183,California
+Huntsville,AL,34.6981,-86.6412,"Huntsville, AL",349482,Alabama
+Greensboro,NC,36.0956,-79.8271,"Greensboro, NC",347130,North Carolina
+Corpus Christi,TX,27.7254,-97.3767,"Corpus Christi, TX",337230,Texas
+Fort Wayne,IN,41.0888,-85.1436,"Fort Wayne, IN",337163,Indiana
+Myrtle Beach,SC,33.7094,-78.8844,"Myrtle Beach, SC",332181,South Carolina
+Fayetteville,NC,35.085,-78.9772,"Fayetteville, NC",328804,North Carolina
+Lansing,MI,42.7142,-84.5601,"Lansing, MI",322561,Michigan
+Lexington,KY,38.0423,-84.4587,"Lexington, KY",321276,Kentucky
+Mobile,AL,30.6782,-88.1162,"Mobile, AL",320855,Alabama
+Savannah,GA,32.0286,-81.1821,"Savannah, GA",316050,Georgia
+Ann Arbor,MI,42.2759,-83.731,"Ann Arbor, MI",308983,Michigan
+Santa Rosa,CA,38.4458,-122.7067,"Santa Rosa, CA",296180,California
+Asheville,NC,35.5707,-82.5537,"Asheville, NC",294013,North Carolina
+Springfield,MO,37.1943,-93.2916,"Springfield, MO",286280,Missouri
+Shreveport,LA,32.4653,-93.7955,"Shreveport, LA",283536,Louisiana
+Davenport,IA,41.5565,-90.6053,"Davenport, IA",281333,Iowa
+Lubbock,TX,33.5657,-101.8879,"Lubbock, TX",280890,Texas
+Lakeland,FL,28.0557,-81.9545,"Lakeland, FL",280346,Florida
+South Bend,IN,41.6767,-86.2696,"South Bend, IN",278061,Indiana
+Rockford,IL,42.2596,-89.064,"Rockford, IL",273237,Illinois
+Eugene,OR,44.0564,-123.1174,"Eugene, OR",270990,Oregon
+Wilmington,NC,34.2099,-77.8866,"Wilmington, NC",268625,North Carolina
+Salem,OR,44.9233,-123.0244,"Salem, OR",266420,Oregon
+Killeen,TX,31.0753,-97.7297,"Killeen, TX",265921,Texas
+Columbus,GA,32.51,-84.8771,"Columbus, GA",264282,Georgia
+Tallahassee,FL,30.4551,-84.2527,"Tallahassee, FL",258696,Florida
+Montgomery,AL,32.3482,-86.2668,"Montgomery, AL",251158,Alabama
+York,PA,39.9651,-76.7315,"York, PA",247176,Pennsylvania
+Gulfport,MS,30.4274,-89.0704,"Gulfport, MS",228022,Mississippi
+Bremerton,WA,47.5436,-122.7121,"Bremerton, WA",226805,Washington
+Deltona,FL,28.905,-81.2137,"Deltona, FL",221137,Florida
+Gainesville,FL,29.6804,-82.3459,"Gainesville, FL",220929,Florida
+College Station,TX,30.5852,-96.2959,"College Station, TX",213177,Texas
+Olympia,WA,47.0417,-122.8959,"Olympia, WA",210877,Washington
+Clarksville,TN,36.5692,-87.3413,"Clarksville, TN",210551,Tennessee
+Kalamazoo,MI,42.2749,-85.5882,"Kalamazoo, MI",200838,Michigan
+Hagerstown,MD,39.6401,-77.7217,"Hagerstown, MD",195261,Maryland
+Ocala,FL,29.178,-82.1511,"Ocala, FL",186840,Florida
+Salinas,CA,36.6883,-121.6317,"Salinas, CA",177410,California
+Gainesville,GA,34.2902,-83.8294,"Gainesville, GA",175569,Georgia
+Vallejo,CA,38.1125,-122.2342,"Vallejo, CA",169541,California
+Medford,OR,42.3372,-122.854,"Medford, OR",168959,Oregon
+Norwich,CT,41.5495,-72.0882,"Norwich, CT",166885,Connecticut
+Merced,CA,37.3057,-120.4779,"Merced, CA",160638,California
+Lafayette,IN,40.3991,-86.8593,"Lafayette, IN",160543,Indiana
+Champaign,IL,40.1142,-88.2737,"Champaign, IL",150179,Illinois
+Topeka,KS,39.0346,-95.6955,"Topeka, KS",148185,Kansas
+Athens,GA,33.9508,-83.3689,"Athens, GA",143173,Georgia
+Columbia,MO,38.9472,-92.3268,"Columbia, MO",142637,Missouri
+Beaumont,TX,30.0849,-94.1451,"Beaumont, TX",140930,Texas
+Las Cruces,NM,32.3265,-106.7893,"Las Cruces, NM",140915,New Mexico
+Grand Junction,CO,39.0877,-108.5673,"Grand Junction, CO",138416,Colorado
+Lynchburg,VA,37.4003,-79.1909,"Lynchburg, VA",128849,Virginia
+Greenville,NC,35.5943,-77.376,"Greenville, NC",127574,North Carolina
+Abilene,TX,32.4543,-99.7384,"Abilene, TX",126356,Texas
+Boulder,CO,40.0248,-105.2524,"Boulder, CO",118090,Colorado
+Charlottesville,VA,38.0375,-78.4855,"Charlottesville, VA",103760,Virginia
+Lawton,OK,34.6175,-98.4202,"Lawton, OK",91023,Oklahoma
+Winchester,VA,39.1735,-78.1746,"Winchester, VA",86813,Virginia
+Cheyenne,WY,41.135,-104.7902,"Cheyenne, WY",78204,Wyoming
+North Port,FL,27.0576,-82.1977,"North Port, FL",76975,Florida
+Manhattan,KS,39.1886,-96.6048,"Manhattan, KS",54287,Kansas
+San Luis Obispo,CA,35.2669,-120.669,"San Luis Obispo, CA",47529,California
+Atlantic City,NJ,39.3797,-74.4527,"Atlantic City, NJ",38487,New Jersey
+Hilton Head Island,SC,32.1896,-80.7499,"Hilton Head Island, SC",37708,South Carolina
+Crestview,FL,30.7477,-86.5785,"Crestview, FL",27427,Florida
+Sebastian,FL,27.7822,-80.4819,"Sebastian, FL",25266,Florida
+Oak Harbor,WA,48.2964,-122.6333,"Oak Harbor, WA",24458,Washington
+Punta Gorda,FL,26.8941,-82.0513,"Punta Gorda, FL",19605,Florida
+Naples,FL,26.1504,-81.7936,"Naples, FL",19315,Florida
+Urban Honolulu,HI,21.315603,-157.858093,"Urban Honolulu, HI",341778,Hawaii
+Boise City,ID,43.618881,-116.215019,"Boise City, ID",236634,Idaho
