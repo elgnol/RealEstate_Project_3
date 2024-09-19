@@ -119,10 +119,10 @@ We aimed to predict the percentage changes in rental and housing prices using a 
 
 2. **Housing Price Predictions**:
    - Similar to rental predictions, the model captured the general trend of housing price changes but missed specific fluctuations in certain states.
-   The performance of linear regression here indicates that GDP does have an effect on housing prices, but again, the model lacks the complexity to account for other important factors like interest rates, housing demand, and government policies.
+   The performance of linear regression here indicates that GDP does affect housing prices. Still, again, the model needs more complexity to account for other important factors like interest rates, housing demand, and government policies.
 
 #### Insights:
-- **Linear Regression is too simple**: The results show that while linear regression can capture general trends, it is insufficient for making accurate predictions when the relationship between variables is complex. GDP alone is not enough to fully explain rental and housing price changes.
+- **Linear Regression is too simple**: The results show that while linear regression can capture general trends, more is needed for making accurate predictions when the relationship between variables is complex. GDP alone is not enough to fully explain rental and housing price changes.
   
 - **Additional factors needed**: To improve predictions, more features should be included in the model, such as:
   - **Interest rates**
@@ -130,7 +130,58 @@ We aimed to predict the percentage changes in rental and housing prices using a 
   - **Population growth**
   - **Housing supply and demand**
   
-- **More complex models required**: More sophisticated models like **Random Forest**, **Gradient Boosting**, or **Neural Networks** could better capture the complex, non-linear relationships between GDP and housing or rental prices.
+- **More complex models required**: More sophisticated models like Random Forest, Gradient Boosting, or Neural Networks could better capture the complex, non-linear relationships between GDP and housing or rental prices.
 
 #### Conclusion:
 The linear regression model offers a starting point, providing insights into the relationship between GDP and rental/housing price changes. However, its simplicity limits its accuracy, and further refinement is needed, either by incorporating additional features or using more advanced machine learning models.
+
+
+# Results and Findings of Economic Data Analysis (2014-2023)
+
+## Overview
+This analysis focuses on key economic indicators in the United States over the past 10 years (2014-2023), including the **Consumer Price Index (CPI)**, rental price changes, unemployment rate, and home values. The goal was to understand how these factors evolved, compare their percentage changes, and observe any correlations between them.
+
+## Data Sources
+The following datasets were used for this analysis:
+- **Inflation Data (CPI)**: Monthly CPI values reflecting inflation trends.
+- **Rental Data**: National-level rental prices and percentage changes.
+- **Unemployment Rate**: Monthly unemployment rates.
+- **Home Values**: Monthly home values at the national level.
+
+## Key Metrics Analyzed
+**Consumer Price Index (CPI)**measures the average change over time in the prices paid by consumers for goods and services.
+- **Rental Percentage Change**: Reflects the cumulative change in rental prices nationally.
+- **Unemployment Rate**: Represents the percentage of people actively seeking employment but unable to find work.
+- **Home Values**: Represents the average home value in the United States.
+
+## Findings
+
+### CPI (Inflation) Trends
+The CPI showed a gradual but steady increase over the last 10 years, reflecting a consistent rise in the cost of goods and services. The percentage change from 2014 to 2023 was significant, highlighting ongoing inflation.
+
+### Rental Prices
+The rental percentage change remained high throughout the period, with a consistent cumulative increase of about **75%** by 2023. This indicates that rental prices increased significantly, outpacing other economic factors like home values.
+
+### Unemployment Rate
+The unemployment rate experienced a notable decline over the decade, with fluctuations during specific periods such as the COVID-19 pandemic in 2020. The unemployment rate's percentage change shows improvement, dropping by over **50%** compared to 2014 levels.
+
+### Home Values
+Home values demonstrated substantial growth, with the percentage change increasing sharply throughout the decade. By 2023, the average home value had risen by more than **80%** compared to 2014, reflecting the rapid escalation of housing costs across the country.
+
+## Correlations and Insights
+
+- **Rental Prices vs. Home Values**: Both rental and home values saw significant growth during this period, suggesting a broader trend of increasing housing costs in the United States. The rise in home values slightly outpaced rental price growth, indicating more robust demand for homeownership in recent years.
+
+- **Inflation (CPI) vs. Housing Costs**: While the CPI showed steady growth, it was slower than the rise in home values and rental prices. This indicates that the housing market, both in terms of purchasing and renting, has outpaced general inflation, leading to a disproportionate increase in housing costs relative to other goods and services.
+
+- **Unemployment Rate Decline**: The unemployment rate substantially decreased, particularly after the initial economic recovery following the pandemic. This improvement in employment conditions correlates with the rise in housing costs, as higher employment levels and incomes may have contributed to greater demand for housing.
+
+## Conclusion
+The analysis highlights critical economic trends in the United States over the past decade:
+
+- Housing costs (home values and rental prices) have risen significantly faster than general inflation.
+- The unemployment rate showed a notable improvement, correlating with the rising demand for housing.
+- Inflation remained persistent but at a lower growth rate than the housing sector, pointing to an affordability issue, particularly in housing.
+
+This suggests that while the economy has generally improved in terms of employment, the cost of housing—both homeownership and rentals—has become a significant burden for consumers. Future research could explore the impact of these trends on different income groups and regions to understand affordability challenges across the country better.
+
