@@ -1,5 +1,10 @@
 [
     {
+        "RegionID":102001,
+        "SizeRank":0,
+        "RegionName":"United States",
+        "RegionType":"country",
+        "StateName":null,
         "2018-01-31":1492.307015083,
         "2018-02-28":1500.5751030177,
         "2018-03-31":1512.1242663547,

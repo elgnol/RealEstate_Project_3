@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 50%; margin: auto; }
+        h1, h2 { text-align: center; }
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        h2 { font-size: 18px; color: black; margin-bottom: 30px; }
+        .chart-container { margin-bottom: 50px; }
+        .dropdown { margin: 10px 0; }        
+        canvas {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1>Economic Impact on U.S. Rentals and Home Sales:</h1>
+       <h2>Pre, During, and Post Pandemic (2018-2022)</h2>
+
+        <div class="chart-container">
+            <div class="dropdown">
+                <label for="dataset2">Select Economic Indicator:</label>
+                <select id="dataset2" onchange="updateChart1()">
+                    <option value="average_mortgage">Avg Mortgage Rate</option>
+                    <option value="median_hhi">Median HHI</option>
+                    <option value="unemployment_data">Unemployment Rate</option>
+                </select>
+            </div>
+            <canvas id="chart1"></canvas>
+        </div>
+        
+        <div class="chart-container">
+            <div class="dropdown">
+                <label for="dataset1">Select Housing Market Data:</label>
+                <select id="dataset1" onchange="updateChart2()">
+                    <option value="rental">US Rentals</option>
+                    <option value="sales">US Home Sales</option>
+                    <option value="home_value">US Home Values</option>
+                </select>
+            </div>
+            <canvas id="chart2"></canvas>
+        </div>
+    </div>
+
+    <script>
+        let chart1, chart2;
+
+        function fetchData(dataset, callback) {
+            fetch(`/get_data/${dataset}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(data => callback(data))
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    alert('Failed to load data. Please try again.');
+                });
+        }
+
+        function updateChart1() {
+            const dataset2 = document.getElementById('dataset2').value;
+            fetchData(dataset2, (data) => {
+                const labels = Object.keys(data);
+                const values = Object.values(data).map(d => Object.values(d)[0]);
+
+                if (chart1) chart1.destroy();
+
+                chart1 = new Chart(document.getElementById('chart1'), {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: dataset2.replace('_', ' ').toUpperCase(),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            data: values,
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: { 
+                                type: 'time', 
+                                time: { unit: 'year' } 
+                            },
+                            y: { beginAtZero: true }
+                        }
+                    }
+                });
+            });
+        }
+
+        function updateChart2() {
+            const dataset1 = document.getElementById('dataset1').value;
+
+            const datasetMapping = {
+                rental: 'us_rental_data_2018_2022',
+                sales: 'us_home_sales_data_2018_2022',
+                home_value: 'us_home_value_data_2018_2022'
+            };
+
+            fetchData(datasetMapping[dataset1], (data) => {
+                console.log("Received data:", data);
+
+                const labels = Object.keys(data);
+                const values = Object.values(data).map(d => d.Rentals || d.Sales || d['Home Value']);
+
+
+                if (chart2) chart2.destroy();
+
+                chart2 = new Chart(document.getElementById('chart2'), {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: dataset1.replace('_', ' ').toUpperCase() + " Data",    
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            data: values,
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            x: { 
+                                type: 'time', 
+                                time: { unit: 'month' },
+                                displayFormats:{
+                                    month: 'MMM YYYY'
+                                } 
+                            },
+                            y: { beginAtZero: true }
+                        }
+                    }
+                });
+            }).catch(error => console.error('Error fetching or processing data:', error));
+        }
+
+        // Set default values and load the charts on page load
+        document.getElementById('dataset1').value = 'rental';
+        document.getElementById('dataset2').value = 'average_mortgage';
+        updateChart1();
+        updateChart2();
+    </script>
+</body>
+</html>
