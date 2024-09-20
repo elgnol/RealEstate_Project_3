@@ -68,7 +68,7 @@ Through a data-driven approach, this analysis will offer valuable perspectives o
 
 ## Objectives
 
-1. **Rental Price vs. Housing Price Trends:** Examine how rental and housing prices have changed over time in California and the United States.
+1. **Rental Price vs. Housing Price Trends:** Examine how rental and housing prices have changed over time in metro areas across the United States.
 2. **Geographical Variations:** Identify regions with the highest and lowest changes in housing prices.
 3. **Pandemic Impact:** Analyze how economic indicators may have affteced housing and rental prices during the COVID-19 pandemic.
 4. **Economic Correlations:** Investigate the correlation between state GDP and housing price changes.
@@ -101,8 +101,7 @@ The following datasets were used for this analysis:
 ## Methodology
 
 1. **Data Collection:**
-   - Use the ATTOM Real Estate API to gather housing price and rental data.
-   - Retrieve Zillow’s datasets for property values, rent index, and housing trends across different regions.
+   - Retrieve Zillow’s datasets for property values, rent index, and housing trends across different metro areas.
    - Collect state GDP data from the BEA and FRED databases.
 
 2. **Data Cleaning & Preparation:**
@@ -198,7 +197,7 @@ The following datasets were used for this analysis:
     <h3>Key Takeaway</h3>
 </div>
 
-  - Over the past decade, home prices in the U.S. have risen significantly faster than rent, increasing by 94% compared to 75%. In 144 of the 163 cities analyzed, property values grew at a greater rate than rental costs. Several factors could explain this trend, including historically low mortgage rates, rent control policies, inflation, heightened real estate investment, and limitations in housing supply.
+  - Over the past decade, home prices in the U.S. have risen significantly faster than rent, increasing by 94% compared to 75%. In 144 of the 163 metro areas analyzed, property values grew at a greater rate than rental costs. Several factors could explain this trend, including historically low mortgage rates, rent control policies, inflation, heightened real estate investment, and limitations in housing supply.
 
 ---
 
@@ -237,7 +236,7 @@ The following datasets were used for this analysis:
     <h3>Key Takeaway</h3>
 </div>
 
- - The West Coast dominates home values, with 7 of the top 10 most expensive cities located in California. In California, the average single-family home is valued around $1 million, while on the East Coast, home prices typically range from $400,000 to $800,000. In contrast, rent prices are more balanced between the two coasts, averaging $3,000 to $4,000 per month. The South and Midwest regions have the lowest average home values and rental rates. These variations are likely influenced by differences in income levels, market demand, and regulatory factors. Notably, Florida has seen a sharp rise in both rent and home prices, likely driven by a substantial influx of new residents from other parts of the U.S.
+ - The West Coast dominates home values, with 7 of the top 10 most expensive metros located in California. In California, the average single-family home is valued around $1 million, while on the East Coast, home prices typically range from $400,000 to $800,000. In contrast, rent prices are more balanced between the two coasts, averaging $3,000 to $4,000 per month. The South and Midwest regions have the lowest average home values and rental rates. These variations are likely influenced by differences in income levels, market demand, and regulatory factors. Notably, Florida has seen a sharp rise in both rent and home prices, likely driven by a substantial influx of new residents from other parts of the U.S.
 
 
 ---
