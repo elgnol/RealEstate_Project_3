@@ -490,8 +490,8 @@ The following datasets were used for this analysis:
 
 
 ## Linear Regression Model 
-### Predicting Rental and Housing Percent Changes
-### Explanation of Findings:
+
+### Predicting Rental and Housing Percent ChangesFindings: 
 
 ### Objective
 We aimed to predict the percentage changes in rental and housing prices using a simple **Linear Regression** model. The model uses **GDP percentage change** as the main feature to make these predictions. The rental and housing percentage changes are predicted separately.
