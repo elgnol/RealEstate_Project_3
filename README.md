@@ -639,10 +639,10 @@ The following datasets were used for this analysis:
 - **Home Values**: Monthly home values at the national level.
 
 ## Key Metrics Analyzed
-**Consumer Price Index (CPI)**measures the average change over time in the prices paid by consumers for goods and services.
-- **Rental Percentage Change**: Reflects the cumulative change in rental prices nationally.
-- **Unemployment Rate**: Represents the percentage of people actively seeking employment but unable to find work.
-- **Home Values**: Represents the average home value in the United States.
+- **Consumer Price Index (CPI):** Measures the average change over time in the prices paid by consumers for goods and services.
+- **Rental Percentage Change:** Reflects the cumulative change in rental prices nationally.
+- **Unemployment Rate:** Represents the percentage of people actively seeking employment but unable to find work.
+- **Home Values:** Represents the average home value in the United States.
 
 ## Findings
 
@@ -674,4 +674,7 @@ The analysis highlights critical economic trends in the United States over the p
 - Inflation remained persistent but at a lower growth rate than the housing sector, pointing to an affordability issue, particularly in housing.
 
 This suggests that while the economy has generally improved in terms of employment, the cost of housing—both homeownership and rentals—has become a significant burden for consumers. Future research could explore the impact of these trends on different income groups and regions to understand affordability challenges across the country better.
+
+[- BACK TO TOP -](#project-description)
+
 
